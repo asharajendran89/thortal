@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DKK</name>
+   <tag></tag>
+   <elementGuidId>1f35f8c1-cea9-449b-9e3b-76817813dc9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/app-root/app-layout/div/div/div/div/app-exchange-conf/div/div[1]/div[2]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/app-root/app-layout/div/div/div/div/app-exchange-conf/div/div[1]/div[2]/div/button</value>
+   </webElementProperties>
+</WebElementEntity>

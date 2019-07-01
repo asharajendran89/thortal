@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>createDeal</name>
+   <tag></tag>
+   <comment>Enter second grid details 
+Enter details to third Grid </comment>
+   <testCaseGuid>13d96030-d547-423c-bcad-60c75dbe0bf0</testCaseGuid>
+</TestCaseEntity>
