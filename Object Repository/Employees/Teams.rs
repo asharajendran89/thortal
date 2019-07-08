@@ -6,18 +6,18 @@
    <elementGuidId>2f36b8c7-03cd-4de6-8ad7-b4d9590ff36a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Developer'])[3]/following::div[4]</value>
+         <key>BASIC</key>
+         <value>html/body/modal-container/div/div/form/div[2]/app-dropdown[4]/form/div[1]/angular2-multiselect/div/div[1]/div[count(. | //div[(text() = 'Teams' or . = 'Teams')]) = count(//div[(text() = 'Teams' or . = 'Teams')])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>html/body/modal-container/div/div/form/div[2]/app-dropdown[4]/form/div[1]/angular2-multiselect/div/div[1]/div</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Developer'])[3]/following::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -52,7 +52,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

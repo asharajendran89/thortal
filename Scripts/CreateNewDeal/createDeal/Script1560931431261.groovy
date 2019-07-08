@@ -241,13 +241,9 @@ WebUI.delay(5)
 String sales = WebUI.getUrl()
 
 if (sales.equals('http://192.168.0.28:4204/saleslog')) {
+	
     log.logInfo('Deal Created Successfully')
 } else {
-
-
-
-
-
-    WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 }
 

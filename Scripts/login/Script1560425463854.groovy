@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 'Open browser'
-WebUI.openBrowser('http://192.168.0.28:4204/login')
+WebUI.openBrowser('https://staging.mythortal.com')
 
 'Maximize the opened browser'
 WebUI.maximizeWindow()
@@ -51,17 +51,17 @@ try {
 }
 catch (Throwable e) {
     log.logInfo('Log In not found: ' + e.getMessage())
-
-  } 
+} 
 
 WebUI.delay(5)
 
 'Check if login was proper or not'
 currentpageurl = WebUI.getUrl()
 
-if (!(currentpageurl.equals('http://192.168.0.28:4204/dashboard'))) {
+if (!(currentpageurl.equals('https://staging.mythortal.com/dashboard'))) {
     errormessage = WebUI.getText(findTestObject('Login/errormessage'))
-	log.logInfo(errormessage)
+
+    log.logInfo(errormessage)
 } else {
     log.logInfo('--------- Sucessfull Log In --------------')
 }

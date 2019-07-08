@@ -3,6 +3,6 @@
    <description></description>
    <name>addEmployees</name>
    <tag></tag>
-   <comment>Password</comment>
+   <comment>Enter the required details to create new employee</comment>
    <testCaseGuid>57e6b8b7-0c23-4106-a82a-160f42183257</testCaseGuid>
 </TestCaseEntity>
