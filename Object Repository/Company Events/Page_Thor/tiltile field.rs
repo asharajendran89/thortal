@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Employees</name>
+   <name>tiltile field</name>
    <tag></tag>
-   <elementGuidId>5be33690-85d8-444b-8a8e-d42710ea5c68</elementGuidId>
+   <elementGuidId>3b639f03-fe8a-41a8-98ed-311386ec88ca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>.//*[@id='DataTables_Table_0']/tbody/tr[1]/td[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
+      <value>.//*[@id='DataTables_Table_0']/tbody/tr[1]/td[1]</value>
    </webElementProperties>
 </WebElementEntity>

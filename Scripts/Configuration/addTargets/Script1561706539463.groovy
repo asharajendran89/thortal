@@ -13,15 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.acceptAlert()
+WebUI.callTestCase(findTestCase('THORtal Login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
 'Click Configuration'
 WebUI.click(findTestObject('Configurations/Configuration'))
 
-'Click Targets'
+WebUI.delay(3)
 
+'Click Targets'
 WebUI.click(findTestObject('Configurations/Targets'))
 
 WebUI.delay(5)

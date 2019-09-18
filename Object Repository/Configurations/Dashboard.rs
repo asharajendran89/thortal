@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Employees</name>
+   <name>Dashboard</name>
    <tag></tag>
-   <elementGuidId>5be33690-85d8-444b-8a8e-d42710ea5c68</elementGuidId>
+   <elementGuidId>80a8b02d-668f-42e6-afd7-7a6f2ca85af2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[2]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
+      <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[2]/a/span</value>
    </webElementProperties>
 </WebElementEntity>

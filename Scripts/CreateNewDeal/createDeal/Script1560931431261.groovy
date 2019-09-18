@@ -24,7 +24,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 //Call Login Page 
-WebUI.callTestCase(findTestCase('login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('THORtal Login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Get the current system date 
 mydate = new Date()

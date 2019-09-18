@@ -18,11 +18,15 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('THORtal Login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Configurations/Configuration'))
 
 String ExpectedValue = '2018'
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('Configurations/Exchange Rate'), 0)
 
 WebUI.delay(5)
 
@@ -39,5 +43,6 @@ List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 int rows_count = rows_table.size()
 
 KeywordLogger log = new KeywordLogger()
+
 log.logWarning(rows_count)
 

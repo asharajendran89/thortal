@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Employees</name>
+   <name>error message</name>
    <tag></tag>
-   <elementGuidId>5be33690-85d8-444b-8a8e-d42710ea5c68</elementGuidId>
+   <elementGuidId>5e5b27b7-3e58-479f-b208-ce88f56cf2d1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>html/body/div[1]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
+      <value>html/body/div[1]/div/div</value>
    </webElementProperties>
 </WebElementEntity>

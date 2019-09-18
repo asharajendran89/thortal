@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Employees</name>
+   <name>Email</name>
    <tag></tag>
-   <elementGuidId>5be33690-85d8-444b-8a8e-d42710ea5c68</elementGuidId>
+   <elementGuidId>a7fd1329-3c97-401c-83bd-5778e23e869e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>html/body/modal-container/div/div/form/div[2]/form-input[7]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
+      <value>html/body/modal-container/div/div/form/div[2]/form-input[7]/div/input</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Employees</name>
+   <name>Brand first</name>
    <tag></tag>
-   <elementGuidId>5be33690-85d8-444b-8a8e-d42710ea5c68</elementGuidId>
+   <elementGuidId>8c5586e5-77b3-4ccb-bc78-2dbc0d2c7f8f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>html/body/modal-container/div/div/form/div[2]/app-dropdown[1]/form/div[2]/angular2-multiselect/div/div[2]/div[3]/div[3]/ul/li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[2]/ul/li[7]/ul/li[1]/a</value>
+      <value>html/body/modal-container/div/div/form/div[2]/app-dropdown[1]/form/div[2]/angular2-multiselect/div/div[2]/div[3]/div[3]/ul/li</value>
    </webElementProperties>
 </WebElementEntity>
