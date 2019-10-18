@@ -3,7 +3,7 @@
    <description></description>
    <name>GBP</name>
    <tag></tag>
-   <elementGuidId>34ffb06f-018a-4451-bc11-b8ff820ebe6d</elementGuidId>
+   <elementGuidId>0f27cff7-ac64-4c22-a7d3-c8ed0d59d1d1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

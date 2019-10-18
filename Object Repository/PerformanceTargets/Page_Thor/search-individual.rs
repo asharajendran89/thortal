@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search-individual</name>
+   <tag></tag>
+   <elementGuidId>0adf2d17-f755-48c4-b2f4-42dc820c8e98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/app-root/app-layout/div/div/div/div/app-performance-target/div/div[3]/div/div[1]/div/div[2]/label/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/app-root/app-layout/div/div/div/div/app-performance-target/div/div[3]/div/div[1]/div/div[2]/label/input</value>
+   </webElementProperties>
+</WebElementEntity>

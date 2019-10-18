@@ -20,7 +20,6 @@ import org.openqa.selenium.WebDriver as WebDriver
 
 WebUI.callTestCase(findTestCase('THORtal Login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
 
 'click on Configuration'
 WebUI.click(findTestObject('Configurations/Configuration'))
@@ -35,8 +34,10 @@ WebUI.delay(5)
 'Click on comapany events button'
 WebUI.click(findTestObject('Company Events/Page_Thor/Company event button'))
 
+WebUI.delay(5)
+
 ' Verify CompanyEvents page or not'
-if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/company_events') {
+if (WebUI.getUrl() == 'http://192.168.0.28:4205/configuration/company_events') {
     System.out.println('Congiguration/Company Events - page')
 
     //EDIT
@@ -53,24 +54,70 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/company_events') {
 
     'To Print Row Size'
     java.lang.System.out.println(rows.size())
-
     'To Print Column Size'
     java.lang.System.out.println(col.size())
+	//if (rows.size() >= 1) {
+		//System.out.println('Data Exists')
 
-    if (rows.size() >= 1) {
-        System.out.println('Data Exists')
-
-        'Generating Random Edit Within Row Size'
-        Random rad = new Random()
-
-        int rowscount = rad.nextInt(rows.size)
-
-        WebUI.delay(5)
-
-        'Click on Random Edit'
-        driver.findElement(By.xpath(('html/body/app-root/app-layout/div/div/div/div/app-company-events/div/div[2]/div/div/table/tbody/tr[' + 
-                rowscount) + ']/td[6]/a[1]')).click()
-
+		if(WebUI.verifyTextPresent('No data available in table', false, FailureHandling.OPTIONAL)){
+			System.out.println('No data available in table')
+			
+		}
+		else if(rows.size() == 1) {
+			System.out.println('Data Exists in the table')
+			
+			
+			WebUI.click(findTestObject('Object Repository/Company Events/Page_Thor/one data'))
+			
+			WebUI.delay(3)
+			
+					WebUI.setText(findTestObject('Company Events/Page_Thor/Event Title'), findTestData('Configuration/Comapny Events').getValue(
+							7, 1))
+			
+					WebUI.setText(findTestObject('Company Events/Page_Thor/Description'), findTestData('Configuration/Comapny Events').getValue(
+							8, 1))
+			
+					WebUI.click(findTestObject('Company Events/Page_Thor/update button'))
+			
+					'Print message on console log'
+					KeywordLogger log = new KeywordLogger()
+			
+					errormessage = WebUI.getText(findTestObject('Company Events/Page_Thor/Error message'))
+			
+					log.logInfo(errormessage)
+			
+					if (errormessage.equalsIgnoreCase('Event updated successfully')) {
+						WebUI.delay(5)
+			
+						WebUI.delay(5)
+			
+						'Search Edited name'
+						WebUI.setText(findTestObject('Company Events/Page_Thor/Search'), findTestData('Configuration/Comapny Events').getValue(
+								7, 1))
+			
+						'Verify whether edited name is updated or not'
+						WebUI.verifyTextPresent(findTestData('Configuration/Comapny Events').getValue(8, 1), false, FailureHandling.OPTIONAL)
+					} else {
+						System.out.println('CompanyEvent doesnt updated  Message: ' + errormessage)
+					}
+			
+			
+			
+			
+		} 
+		else{
+			System.out.println('Data Exists in the table')
+			
+		'Generating Random Edit Within Row Size'
+		Random rad = new Random()
+		
+				int rowscount = rad.nextInt(rows.size)
+		
+				WebUI.delay(5)
+		   
+		   
+				driver.findElement(By.xpath(('html/body/app-root/app-layout/div/div/div/div/app-company-events/div/div[2]/div/div/table/tbody/tr[' + rowscount) + ']/td[6]/a[1]')).click()
+				
         WebUI.delay(3)
 
         WebUI.setText(findTestObject('Company Events/Page_Thor/Event Title'), findTestData('Configuration/Comapny Events').getValue(
@@ -101,11 +148,15 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/company_events') {
             WebUI.verifyTextPresent(findTestData('Configuration/Comapny Events').getValue(8, 1), false, FailureHandling.OPTIONAL)
         } else {
             System.out.println('CompanyEvent doesnt updated  Message: ' + errormessage)
-        }
-    } else {
-        System.out.println('No Data to Edit')
-    }
-} else {
+        }}
+		
+	//}else{
+	//System.out.println('No data exists')
+	
+	
+	//}
+        }else {
     System.out.println('Incorrect page')
 }
+
 

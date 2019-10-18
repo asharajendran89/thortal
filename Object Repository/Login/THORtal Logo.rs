@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[1]/a/span[1]/img</value>
+         <value>html/body/app-root/app-login/div/div/div/div/div/div/div/div/a/span/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/app-root/app-layout/div/app-sidebars/app-sidebar/div/div[1]/a/span[1]/img</value>
+      <value>html/body/app-root/app-login/div/div/div/div/div/div/div/div/a/span/img</value>
    </webElementProperties>
 </WebElementEntity>

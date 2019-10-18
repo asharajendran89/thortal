@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create New deal" time="16" tests="2" failures="0" errors="0">
+   <testsuite name="Create New deal" tests="2" failures="0" errors="0" time="16" timestamp="2019-10-10 17:52:28" hostname="sambhavi - sambhavi.jmandigital.in" id="Test Suites/Create New Deal/Create New deal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\git\\thortal\\Reports\\Create New Deal\\Create New deal\\20191010_175226"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\git\\thortal\\Reports\\Create New Deal\\Create New deal\\20191010_175226\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 77.0.3865.90"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="08a7e56eee45ba2d37bc453b84327e4b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/THORtal Login/login" classname="Test Cases/THORtal Login/login" status="PASSED">
+         <system-out><![CDATA[2019-10-10 17:52:28 - [TEST_CASE][PASSED] - Test Cases/THORtal Login/login: Test Cases/THORtal Login/login
+
+2019-10-10 17:52:29 - [TEST_STEP][PASSED] - openBrowser("http://192.168.0.28:4205/"): Browser is opened with url: 'http://192.168.0.28:4205/'
+
+2019-10-10 17:52:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-10 17:52:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-10 17:52:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.28:4205/'
+
+2019-10-10 17:52:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-10 17:52:37 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-10 17:52:37 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-10-10 17:52:37 - [TEST_STEP][PASSED] - try: Text 'nick' is set on object 'Object Repository/Login/User Name'
+
+2019-10-10 17:52:37 - [TEST_STEP][PASSED] - log.logInfo("---------User Name exists --------------"): ---------User Name exists --------------
+
+2019-10-10 17:52:37 - [MESSAGE][INFO] - ---------User Name exists --------------
+
+2019-10-10 17:52:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/User Name"), "nick"): Text 'nick' is set on object 'Object Repository/Login/User Name'
+
+2019-10-10 17:52:38 - [MESSAGE][PASSED] - Text 'nick' is set on object 'Object Repository/Login/User Name'
+
+2019-10-10 17:52:38 - [TEST_STEP][PASSED] - try: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-10-10 17:52:38 - [TEST_STEP][PASSED] - log.logInfo("---------password exists --------------"): ---------password exists --------------
+
+2019-10-10 17:52:38 - [MESSAGE][INFO] - ---------password exists --------------
+
+2019-10-10 17:52:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), "AdUMoLaE2tWuHJEBZev0OA=="): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-10-10 17:52:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-10-10 17:52:38 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Login/signin' is clicked on
+
+2019-10-10 17:52:38 - [TEST_STEP][PASSED] - log.logInfo("---------Log In  exists --------------"): ---------Log In  exists --------------
+
+2019-10-10 17:52:38 - [MESSAGE][INFO] - ---------Log In  exists --------------
+
+2019-10-10 17:52:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/signin")): Object: 'Object Repository/Login/signin' is clicked on
+
+2019-10-10 17:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/signin' is clicked on
+
+2019-10-10 17:52:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-10-10 17:52:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-10-10 17:52:43 - [TEST_STEP][PASSED] - currentpageurl = getUrl(): Current window's url is: 'http://192.168.0.28:4205/dashboard'
+
+2019-10-10 17:52:43 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:4205/dashboard'
+
+2019-10-10 17:52:43 - [TEST_STEP][PASSED] - if (!(currentpageurl.equals("http://192.168.0.28:4205/dashboard"))): null
+
+2019-10-10 17:52:43 - [TEST_STEP][PASSED] - else: --------- Sucessfull Log In --------------
+
+2019-10-10 17:52:43 - [TEST_STEP][PASSED] - log.logInfo("--------- Sucessfull Log In --------------"): --------- Sucessfull Log In --------------
+
+2019-10-10 17:52:43 - [MESSAGE][INFO] - --------- Sucessfull Log In --------------]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateNewDeal/Create New Deal" classname="Test Cases/CreateNewDeal/Create New Deal" status="PASSED">
+         <system-out><![CDATA[2019-10-10 17:52:43 - [TEST_CASE][PASSED] - Test Cases/CreateNewDeal/Create New Deal: Test Cases/CreateNewDeal/Create New Deal
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - comment("Creating New Deal which effects on"Sales Log""): Creating New Deal which effects on"Sales Log"
+
+2019-10-10 17:52:44 - [MESSAGE][INFO] - Creating New Deal which effects on"Sales Log"
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - todayDate = today.format("dd/MM/yyy"): null
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - pdate = today - 5: null
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - pdate2 = pdate.format("dd/MM/yyy"): null
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - futuredate = today + 5: null
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - futuredate2 = futuredate.format("dd/MM/yyy"): null
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - rb = new java.awt.Robot(): null
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Configurations/Create New Deal")): Object: 'Object Repository/Configurations/Create New Deal' is clicked on
+
+2019-10-10 17:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Configurations/Create New Deal' is clicked on
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - if (getUrl() == "http://192.168.0.28:4205/saleslogs/new/parent"): Current window's url is: 'http://192.168.0.28:4205/dashboard'
+
+2019-10-10 17:52:44 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:4205/dashboard'
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - else: null
+
+2019-10-10 17:52:44 - [TEST_STEP][PASSED] - out.println("Incorrect page"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-10 17:52:28 - [TEST_SUITE][PASSED] - Create New deal: Test Cases/CreateNewDeal/Create New Deal]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

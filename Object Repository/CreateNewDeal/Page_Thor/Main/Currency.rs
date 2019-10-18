@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Currency</name>
+   <tag></tag>
+   <elementGuidId>22275675-ab39-4529-ac05-ba61ab15203a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/app-root/app-layout/div/div/div/div/app-create-sales-log/div/div[2]/div/form/app-container[2]/div/app-container/div/app-dropdown[2]/form/div[1]/angular2-multiselect/div/div[1]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/app-root/app-layout/div/div/div/div/app-create-sales-log/div/div[2]/div/form/app-container[2]/div/app-container/div/app-dropdown[2]/form/div[1]/angular2-multiselect/div/div[1]/div</value>
+   </webElementProperties>
+</WebElementEntity>

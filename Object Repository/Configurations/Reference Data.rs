@@ -6,14 +6,18 @@
    <elementGuidId>57078f20-271f-410f-bf9d-f10b36e0ad9b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='left-side-menu-container']/ul/li[7]/ul/li[9]/a</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//ul[@id='list.name']/li[9]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,25 +31,25 @@
       <value>configuration/reference_conf</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/$/configuration/reference_conf</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Reference Data</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;left-side-menu-container&quot;)/ul[@class=&quot;metismenu side-nav&quot;]/li[@class=&quot;side-nav-item ng-star-inserted&quot;]/ul[@id=&quot;list.name&quot;]/li[@class=&quot;ng-star-inserted&quot;]/a[1]</value>
+      <value>.//*[@id='left-side-menu-container']/ul/li[7]/ul/li[9]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

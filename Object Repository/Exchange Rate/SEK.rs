@@ -3,7 +3,7 @@
    <description></description>
    <name>SEK</name>
    <tag></tag>
-   <elementGuidId>24ea74e1-b36f-4095-ad73-c90ba01e4343</elementGuidId>
+   <elementGuidId>000ff26a-4afd-4a25-aefe-01984e1690c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

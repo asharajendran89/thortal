@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create New deal With Director Approval,Chrome 77.0.3865.90,,2019-10-10 17:53:58,2019-10-10 17:54:56,58.801s,PASSED
+,,,,,,
+Test Cases/CreateNewDeal/Create New deal with director Approval,Chrome 77.0.3865.90,,2019-10-10 17:53:58,2019-10-10 17:54:56,57.759s,PASSED
+"comment(""Creating deal with ""Director Approval"" which effects in ""Invoice Bank """")",Chrome 77.0.3865.90,,2019-10-10 17:53:58,2019-10-10 17:53:58,0.068s,PASSED
+"callTestCase(findTestCase(""THORtal Login/login""), [:], STOP_ON_FAILURE)",Chrome 77.0.3865.90,,2019-10-10 17:53:58,2019-10-10 17:54:12,13.426s,PASSED
+today = new java.util.Date(),Chrome 77.0.3865.90,Current date,2019-10-10 17:54:12,2019-10-10 17:54:12,0.006s,PASSED
+"todayDate = today.format(""dd/MM/yyy"")",Chrome 77.0.3865.90,,2019-10-10 17:54:12,2019-10-10 17:54:12,0.008s,PASSED
+pastdate = today - 5,Chrome 77.0.3865.90,Getting past date,2019-10-10 17:54:12,2019-10-10 17:54:12,0.002s,PASSED
+"pastdate2 = pastdate.format(""dd/MM/yyy"")",Chrome 77.0.3865.90,,2019-10-10 17:54:12,2019-10-10 17:54:12,0.001s,PASSED
+futuredate = today + 5,Chrome 77.0.3865.90,Getting future date,2019-10-10 17:54:12,2019-10-10 17:54:12,0.003s,PASSED
+"futuredate2 = futuredate.format(""dd/MM/yyy"")",Chrome 77.0.3865.90,,2019-10-10 17:54:12,2019-10-10 17:54:12,0.001s,PASSED
+rb = new java.awt.Robot(),Chrome 77.0.3865.90,For keyboard actions,2019-10-10 17:54:12,2019-10-10 17:54:12,0.046s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.90,Print message on console log,2019-10-10 17:54:12,2019-10-10 17:54:12,0.001s,PASSED
+"click(findTestObject(""Configurations/Create New Deal""))",Chrome 77.0.3865.90,Create New Deal,2019-10-10 17:54:12,2019-10-10 17:54:12,0.134s,PASSED
+"if (getUrl() == ""http://192.168.0.28:4205/saleslogs/new/parent"")",Chrome 77.0.3865.90, Verify Create Deals page or not,2019-10-10 17:54:12,2019-10-10 17:54:56,43.453s,PASSED

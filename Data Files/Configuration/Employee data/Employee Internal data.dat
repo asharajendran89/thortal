@@ -8,8 +8,8 @@
    <dataFileGUID>9b237541-d297-4a40-a33b-b19c0374a1b6</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Automation+ Entry+1 ENT Entry1 thor%40123 Resourcer TC+Ltd Thor+Bio null Enrtry1%40gmail.com Y Y Y Test1 Y</data>
-   <data>null null null null null null null null null null null null null null null</data>
+   <data>Test+Run Entry+ RUN RUN01 thor%40123 Resourcer TC+Ltd Thor+Bio null Enrtry2%40gmail.com Y Y Y Test2 Y edittttttt Name</data>
+   <data>null null null null null null null null null null null null null null null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>First Name</name>
@@ -83,6 +83,16 @@
    <internalDataColumns>
       <columnIndex>14</columnIndex>
       <name>Show contact</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>15</columnIndex>
+      <name>Edit First Name</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>16</columnIndex>
+      <name>Edit Last Name</name>
       <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

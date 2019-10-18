@@ -3,7 +3,7 @@
    <description></description>
    <name>NOK</name>
    <tag></tag>
-   <elementGuidId>b05d29de-9543-497e-8e0e-8e2a21afe639</elementGuidId>
+   <elementGuidId>dbfd5d72-6843-4a5f-bb1b-cf431a6d6573</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

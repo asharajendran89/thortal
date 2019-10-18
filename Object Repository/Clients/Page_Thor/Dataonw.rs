@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dataonw</name>
+   <tag></tag>
+   <elementGuidId>d63ad1e7-610a-4ed5-9fe4-46eb7b697350</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/app-root/app-layout/div/div/div/div/app-client-conf/div/div[2]/div/div/table/tbody/tr/td[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/app-root/app-layout/div/div/div/div/app-client-conf/div/div[2]/div/div/table/tbody/tr/td[5]/a</value>
+   </webElementProperties>
+</WebElementEntity>

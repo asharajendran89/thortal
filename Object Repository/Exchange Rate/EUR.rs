@@ -3,7 +3,7 @@
    <description></description>
    <name>EUR</name>
    <tag></tag>
-   <elementGuidId>8c4bd3f2-2182-4fe4-a9ff-f7ca0efc3dbb</elementGuidId>
+   <elementGuidId>be175741-5540-4d97-8662-1e5f1679c409</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

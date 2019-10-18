@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create New deal With Director Approval" time="58" tests="1" failures="0" errors="0">
+   <testsuite name="Create New deal With Director Approval" tests="1" failures="0" errors="0" time="58" timestamp="2019-10-10 17:53:58" hostname="sambhavi - sambhavi.jmandigital.in" id="Test Suites/Create New Deal/Create New deal With Director Approval">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\git\\thortal\\Reports\\Create New Deal\\Create New deal With Director Approval\\20191010_175356"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\git\\thortal\\Reports\\Create New Deal\\Create New deal With Director Approval\\20191010_175356\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 77.0.3865.90"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="b28996c304fb32f3e5e7ca9385cafdc7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CreateNewDeal/Create New deal with director Approval" classname="Test Cases/CreateNewDeal/Create New deal with director Approval" status="PASSED">
+         <system-out><![CDATA[2019-10-10 17:53:58 - [TEST_CASE][PASSED] - Test Cases/CreateNewDeal/Create New deal with director Approval: Test Cases/CreateNewDeal/Create New deal with director Approval
+
+2019-10-10 17:53:58 - [TEST_STEP][PASSED] - comment("Creating deal with "Director Approval" which effects in "Invoice Bank ""): Creating deal with "Director Approval" which effects in "Invoice Bank "
+
+2019-10-10 17:53:58 - [MESSAGE][INFO] - Creating deal with "Director Approval" which effects in "Invoice Bank "
+
+2019-10-10 17:53:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("THORtal Login/login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/THORtal Login/login' successfully
+
+2019-10-10 17:53:59 - [TEST_CASE][PASSED] - Test Cases/THORtal Login/login: Test Cases/THORtal Login/login
+
+2019-10-10 17:53:59 - [TEST_STEP][PASSED] - openBrowser("http://192.168.0.28:4205/"): Browser is opened with url: 'http://192.168.0.28:4205/'
+
+2019-10-10 17:53:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-10 17:53:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-10 17:54:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.28:4205/'
+
+2019-10-10 17:54:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-10 17:54:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-10 17:54:06 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-10-10 17:54:06 - [TEST_STEP][PASSED] - try: Text 'nick' is set on object 'Object Repository/Login/User Name'
+
+2019-10-10 17:54:06 - [TEST_STEP][PASSED] - log.logInfo("---------User Name exists --------------"): ---------User Name exists --------------
+
+2019-10-10 17:54:06 - [MESSAGE][INFO] - ---------User Name exists --------------
+
+2019-10-10 17:54:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login/User Name"), "nick"): Text 'nick' is set on object 'Object Repository/Login/User Name'
+
+2019-10-10 17:54:07 - [MESSAGE][PASSED] - Text 'nick' is set on object 'Object Repository/Login/User Name'
+
+2019-10-10 17:54:07 - [TEST_STEP][PASSED] - try: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-10-10 17:54:07 - [TEST_STEP][PASSED] - log.logInfo("---------password exists --------------"): ---------password exists --------------
+
+2019-10-10 17:54:07 - [MESSAGE][INFO] - ---------password exists --------------
+
+2019-10-10 17:54:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), "AdUMoLaE2tWuHJEBZev0OA=="): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-10-10 17:54:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-10-10 17:54:07 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Login/signin' is clicked on
+
+2019-10-10 17:54:07 - [TEST_STEP][PASSED] - log.logInfo("---------Log In  exists --------------"): ---------Log In  exists --------------
+
+2019-10-10 17:54:07 - [MESSAGE][INFO] - ---------Log In  exists --------------
+
+2019-10-10 17:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Login/signin")): Object: 'Object Repository/Login/signin' is clicked on
+
+2019-10-10 17:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/signin' is clicked on
+
+2019-10-10 17:54:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-10-10 17:54:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - currentpageurl = getUrl(): Current window's url is: 'http://192.168.0.28:4205/dashboard'
+
+2019-10-10 17:54:12 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:4205/dashboard'
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - if (!(currentpageurl.equals("http://192.168.0.28:4205/dashboard"))): null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - else: --------- Sucessfull Log In --------------
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - log.logInfo("--------- Sucessfull Log In --------------"): --------- Sucessfull Log In --------------
+
+2019-10-10 17:54:12 - [MESSAGE][INFO] - --------- Sucessfull Log In --------------
+
+2019-10-10 17:54:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/THORtal Login/login' successfully
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - todayDate = today.format("dd/MM/yyy"): null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - pastdate = today - 5: null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - pastdate2 = pastdate.format("dd/MM/yyy"): null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - futuredate = today + 5: null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - futuredate2 = futuredate.format("dd/MM/yyy"): null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - rb = new java.awt.Robot(): null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - click(findTestObject("Configurations/Create New Deal")): Object: 'Object Repository/Configurations/Create New Deal' is clicked on
+
+2019-10-10 17:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Configurations/Create New Deal' is clicked on
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - if (getUrl() == "http://192.168.0.28:4205/saleslogs/new/parent"): null
+
+2019-10-10 17:54:12 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:4205/saleslogs/new/parent'
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - out.println("Create New Deal - page"): null
+
+2019-10-10 17:54:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-10-10 17:54:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-10-10 17:54:17 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/div_NS")): Object: 'Object Repository/CreateNewDeal/Page_Thor/div_NS' is clicked on
+
+2019-10-10 17:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/div_NS' is clicked on
+
+2019-10-10 17:54:18 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Thor Consultant Search"), findTestData("Create New Deal").getValue(1, 1)): Text 'SU' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Thor Consultant Search'
+
+2019-10-10 17:54:18 - [MESSAGE][PASSED] - Text 'SU' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Thor Consultant Search'
+
+2019-10-10 17:54:18 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Thor Consultant First")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Thor Consultant First' is clicked on
+
+2019-10-10 17:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Thor Consultant First' is clicked on
+
+2019-10-10 17:54:18 - [TEST_STEP][PASSED] - company = "TC Ltd": null
+
+2019-10-10 17:54:18 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Company")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Company' is clicked on
+
+2019-10-10 17:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Company' is clicked on
+
+2019-10-10 17:54:19 - [TEST_STEP][PASSED] - if (company.equals("TC Inc")): null
+
+2019-10-10 17:54:19 - [TEST_STEP][PASSED] - else if (company.equals("TC Ltd")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Page_Thor/li_TC Ltd' is clicked on
+
+2019-10-10 17:54:19 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Page_Thor/li_TC Ltd")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Page_Thor/li_TC Ltd' is clicked on
+
+2019-10-10 17:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Page_Thor/li_TC Ltd' is clicked on
+
+2019-10-10 17:54:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-10-10 17:54:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-10-10 17:54:22 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/brand main")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/brand main' is clicked on
+
+2019-10-10 17:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/brand main' is clicked on
+
+2019-10-10 17:54:22 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Main/Brand search"), findTestData("Create New Deal").getValue(2, 1)): Text 'Thor Bio' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Brand search'
+
+2019-10-10 17:54:22 - [MESSAGE][PASSED] - Text 'Thor Bio' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Brand search'
+
+2019-10-10 17:54:22 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Brand first")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Brand first' is clicked on
+
+2019-10-10 17:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Brand first' is clicked on
+
+2019-10-10 17:54:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-10-10 17:54:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-10-10 17:54:26 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/deal_date"), todayDate): Text '10/10/2019' is set on object 'Object Repository/CreateNewDeal/Page_Thor/deal_date'
+
+2019-10-10 17:54:26 - [MESSAGE][PASSED] - Text '10/10/2019' is set on object 'Object Repository/CreateNewDeal/Page_Thor/deal_date'
+
+2019-10-10 17:54:26 - [TEST_STEP][PASSED] - "Enter second grid details ": null
+
+2019-10-10 17:54:26 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Candidate Name"), findTestData("Create New Deal").getValue(3, 1)): Text 'Automation4' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Candidate Name'
+
+2019-10-10 17:54:26 - [MESSAGE][PASSED] - Text 'Automation4' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Candidate Name'
+
+2019-10-10 17:54:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-10-10 17:54:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-10-10 17:54:29 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Client")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Client' is clicked on
+
+2019-10-10 17:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Client' is clicked on
+
+2019-10-10 17:54:29 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/client Search"), "dfff"): Text 'dfff' is set on object 'Object Repository/CreateNewDeal/Page_Thor/client Search'
+
+2019-10-10 17:54:30 - [MESSAGE][PASSED] - Text 'dfff' is set on object 'Object Repository/CreateNewDeal/Page_Thor/client Search'
+
+2019-10-10 17:54:30 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/client First")): Object: 'Object Repository/CreateNewDeal/Page_Thor/client First' is clicked on
+
+2019-10-10 17:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/client First' is clicked on
+
+2019-10-10 17:54:30 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Currency")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Currency' is clicked on
+
+2019-10-10 17:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Currency' is clicked on
+
+2019-10-10 17:54:30 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Main/Currency search"), findTestData("Create New Deal").getValue(13, 1)): Text 'GBP' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Currency search'
+
+2019-10-10 17:54:30 - [MESSAGE][PASSED] - Text 'GBP' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Currency search'
+
+2019-10-10 17:54:30 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Currency first")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Currency first' is clicked on
+
+2019-10-10 17:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Currency first' is clicked on
+
+2019-10-10 17:54:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-10-10 17:54:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-10-10 17:54:33 - [TEST_STEP][PASSED] - a = findTestData("Create New Deal").getValue(4, 1): null
+
+2019-10-10 17:54:33 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Contract Type")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Contract Type' is clicked on
+
+2019-10-10 17:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Contract Type' is clicked on
+
+2019-10-10 17:54:34 - [TEST_STEP][PASSED] - if (a.equals("Contractor")): null
+
+2019-10-10 17:54:34 - [TEST_STEP][PASSED] - else if (a.equals("Permanent")): Text '10/10/2019' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Invoice to be sent'
+
+2019-10-10 17:54:34 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Contract type-2")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Contract type-2' is clicked on
+
+2019-10-10 17:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Contract type-2' is clicked on
+
+2019-10-10 17:54:34 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Page_Thor/div_Sales Category")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Page_Thor/div_Sales Category' is clicked on
+
+2019-10-10 17:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Page_Thor/div_Sales Category' is clicked on
+
+2019-10-10 17:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Main/sales category search"), findTestData("Create New Deal").getValue(9, 1)): Text 'Full deal' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/sales category search'
+
+2019-10-10 17:54:34 - [MESSAGE][PASSED] - Text 'Full deal' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/sales category search'
+
+2019-10-10 17:54:34 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Sales first")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Sales first' is clicked on
+
+2019-10-10 17:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Sales first' is clicked on
+
+2019-10-10 17:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Main/Billable salaary"), findTestData("Create New Deal").getValue(11, 1)): Text '500' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Billable salaary'
+
+2019-10-10 17:54:35 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Billable salaary'
+
+2019-10-10 17:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Main/Thor Rate"), findTestData("Create New Deal").getValue(12, 1)): Text '50' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Thor Rate'
+
+2019-10-10 17:54:35 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Thor Rate'
+
+2019-10-10 17:54:35 - [TEST_STEP][PASSED] - "Enter details to third Grid ": null
+
+2019-10-10 17:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Main/Start Dtae"), pastdate2): Text '05/10/2019' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Start Dtae'
+
+2019-10-10 17:54:35 - [MESSAGE][PASSED] - Text '05/10/2019' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Start Dtae'
+
+2019-10-10 17:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Main/Invoice to be sent"), todayDate): Text '10/10/2019' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Invoice to be sent'
+
+2019-10-10 17:54:35 - [MESSAGE][PASSED] - Text '10/10/2019' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Invoice to be sent'
+
+2019-10-10 17:54:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreateNewDeal/Page_Thor/Main/Invoice to be sent"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Invoice to be sent'
+
+2019-10-10 17:54:35 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Invoice to be sent'
+
+2019-10-10 17:54:35 - [TEST_STEP][PASSED] - rb.keyPress(VK_SPACE): null
+
+2019-10-10 17:54:35 - [TEST_STEP][PASSED] - rb.keyRelease(VK_SPACE): null
+
+2019-10-10 17:54:35 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Invoice Number")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Invoice Number' is clicked on
+
+2019-10-10 17:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Invoice Number' is clicked on
+
+2019-10-10 17:54:36 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Client reference number")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Client reference number' is clicked on
+
+2019-10-10 17:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Client reference number' is clicked on
+
+2019-10-10 17:54:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreateNewDeal/Page_Thor/Main/Client reference number"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Client reference number'
+
+2019-10-10 17:54:36 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Client reference number'
+
+2019-10-10 17:54:36 - [TEST_STEP][PASSED] - rb.keyPress(VK_SPACE): null
+
+2019-10-10 17:54:36 - [TEST_STEP][PASSED] - rb.keyRelease(VK_SPACE): null
+
+2019-10-10 17:54:36 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewDeal/Page_Thor/Main/Save")): Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Save' is clicked on
+
+2019-10-10 17:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDeal/Page_Thor/Main/Save' is clicked on
+
+2019-10-10 17:54:36 - [TEST_STEP][PASSED] - errormessage = getText(findTestObject("Object Repository/CreateNewDeal/Page_Thor/Main/error messgae")): Text of object 'Object Repository/CreateNewDeal/Page_Thor/Main/error messgae' is: 'Deal created successfully'
+
+2019-10-10 17:54:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/CreateNewDeal/Page_Thor/Main/error messgae' is: 'Deal created successfully'
+
+2019-10-10 17:54:38 - [TEST_STEP][PASSED] - log.logInfo(errormessage): Deal created successfully
+
+2019-10-10 17:54:38 - [MESSAGE][INFO] - Deal created successfully
+
+2019-10-10 17:54:38 - [TEST_STEP][PASSED] - if (errormessage.equalsIgnoreCase("Deal created successfully")): null
+
+2019-10-10 17:54:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-10-10 17:54:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-10-10 17:54:43 - [TEST_STEP][PASSED] - if (getUrl() == "http://192.168.0.28:4205/saleslog"): null
+
+2019-10-10 17:54:43 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:4205/saleslog'
+
+2019-10-10 17:54:43 - [TEST_STEP][PASSED] - out.println("Sales log - page"): null
+
+2019-10-10 17:54:43 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewDeal/Page_Thor/Main/Search"), findTestData("Create New Deal").getValue(3, 1)): Text 'Automation4' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Search'
+
+2019-10-10 17:54:45 - [MESSAGE][PASSED] - Text 'Automation4' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Main/Search'
+
+2019-10-10 17:54:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-10-10 17:54:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-10-10 17:54:48 - [TEST_STEP][PASSED] - verifyTextPresent(findTestData("Create New Deal").getValue(3, 1), false, OPTIONAL): Text 'Automation4' is present on page 
+
+2019-10-10 17:54:48 - [MESSAGE][PASSED] - Text 'Automation4' is present on page 
+
+2019-10-10 17:54:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-10-10 17:54:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-10-10 17:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Configurations/Invoice Bank")): Object: 'Object Repository/Configurations/Invoice Bank' is clicked on
+
+2019-10-10 17:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Configurations/Invoice Bank' is clicked on
+
+2019-10-10 17:54:51 - [TEST_STEP][PASSED] - if (getUrl() == "http://192.168.0.28:4205/invoice"): Text 'Automation4' is present on page 
+
+2019-10-10 17:54:51 - [MESSAGE][PASSED] - Current window's url is: 'http://192.168.0.28:4205/invoice'
+
+2019-10-10 17:54:51 - [TEST_STEP][PASSED] - out.println("Invoice Bank - page"): null
+
+2019-10-10 17:54:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateNewDeal/Page_Thor/Invoice search"), findTestData("Create New Deal").getValue(3, 1)): Text 'Automation4' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Invoice search'
+
+2019-10-10 17:54:52 - [MESSAGE][PASSED] - Text 'Automation4' is set on object 'Object Repository/CreateNewDeal/Page_Thor/Invoice search'
+
+2019-10-10 17:54:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-10-10 17:54:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-10-10 17:54:55 - [TEST_STEP][PASSED] - verifyTextPresent(findTestData("Create New Deal").getValue(3, 1), false, OPTIONAL): Text 'Automation4' is present on page 
+
+2019-10-10 17:54:56 - [MESSAGE][PASSED] - Text 'Automation4' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-10 17:53:58 - [TEST_SUITE][PASSED] - Create New deal With Director Approval: Test Cases/CreateNewDeal/Create New deal with director Approval]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search</name>
+   <tag></tag>
+   <elementGuidId>e6749d51-27ae-4e59-8399-0dfcb88db83c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/app-root/app-layout/div/div/div/div/app-target-conf/div/div[3]/div/div/div[2]/label/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/app-root/app-layout/div/div/div/div/app-target-conf/div/div[3]/div/div/div[2]/label/input</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Teams/Page_Thor/Teams button'))
 KeywordLogger log = new KeywordLogger()
 
 ' Verify Clients page or not'
-if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/teams') {
+if (WebUI.getUrl() == 'http://192.168.0.28:4205/configuration/teams') {
     System.out.println('Congiguration/Teams - page')
 
     WebUI.delay(3)
@@ -64,8 +64,39 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/teams') {
     'To Print Column Size'
     java.lang.System.out.println(col.size())
 
-    if (rows.size() >= 1) {
-        System.out.println('Data Exists')
+    if (WebUI.verifyTextPresent('No data available in table', false, FailureHandling.OPTIONAL)) {
+        System.out.println('No data available in table')
+    } else if (rows.size() == 1) {
+        System.out.println('Data Exists in table')
+
+        WebUI.click(findTestObject('Object Repository/Teams/Page_Thor/Team data one'))
+
+        WebUI.delay(3)
+
+        'Edit Team Name '
+        WebUI.setText(findTestObject('Teams/Page_Thor/Tname'), findTestData('Configuration/Teams Data').getValue(4, 1))
+
+        'Click on Update button'
+        WebUI.click(findTestObject('Teams/Page_Thor/Update button'))
+
+        errormessage = WebUI.getText(findTestObject('Teams/Page_Thor/Error message'))
+
+        log.logInfo(errormessage)
+
+        if (errormessage.equalsIgnoreCase('Team updated successfully')) {
+            WebUI.delay(5)
+
+            'Search Edited name'
+            WebUI.setText(findTestObject('Teams/Page_Thor/Team search'), findTestData('Configuration/Teams Data').getValue(
+                    4, 1))
+
+            'Verify whether edited name is updated or not'
+            WebUI.verifyTextPresent(findTestData('Configuration/Teams Data').getValue(4, 1), false, FailureHandling.OPTIONAL)
+        } else {
+            System.out.println('Team doesnt updated  Message: ' + errormessage)
+        }
+    } else {
+        System.out.println('Data Exists in table')
 
         'Generating Random Edit Within Row Size'
         Random rad = new Random()
@@ -80,32 +111,29 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/teams') {
         WebUI.delay(3)
 
         'Edit Team Name '
-        WebUI.setText(findTestObject('Teams/Page_Thor/Team name'), findTestData('Teams Data').getValue(3, 1))
+        WebUI.setText(findTestObject('Teams/Page_Thor/Tname'), findTestData('Configuration/Teams Data').getValue(4, 1))
 
         'Click on Update button'
         WebUI.click(findTestObject('Teams/Page_Thor/Update button'))
-		errormessage = WebUI.getText(findTestObject('Teams/Page_Thor/Error message'))
-		
-			log.logInfo(errormessage)
-		
-			if (errormessage.equalsIgnoreCase('Team created successfully')) {
-				WebUI.delay(5)
-		
 
-        WebUI.delay(5)
+        errormessage = WebUI.getText(findTestObject('Teams/Page_Thor/Error message'))
 
-        'Search Edited name'
-        WebUI.setText(findTestObject('Teams/Page_Thor/Team search'), findTestData('Teams Data').getValue(3, 1))
+        log.logInfo(errormessage)
 
-        'Verify whether edited name is updated or not'
-        WebUI.verifyTextPresent(findTestData('Teams Data').getValue(3, 1), false, FailureHandling.OPTIONAL)
-			}
-			else{
-				System.out.println('Team doesnt updated  Message: '+errormessage)
-				
-			}
-    } else {
-        System.out.println('No Data to Edit')
+        if (errormessage.equalsIgnoreCase('Team updated successfully')) {
+            WebUI.delay(5)
+
+            WebUI.delay(5)
+
+            'Search Edited name'
+            WebUI.setText(findTestObject('Teams/Page_Thor/Team search'), findTestData('Configuration/Teams Data').getValue(
+                    4, 1))
+
+            'Verify whether edited name is updated or not'
+            WebUI.verifyTextPresent(findTestData('Configuration/Teams Data').getValue(4, 1), false, FailureHandling.OPTIONAL)
+        } else {
+            System.out.println('Team doesnt updated  Message: ' + errormessage)
+        }
     }
 } else {
     System.out.println('Incorrect page')

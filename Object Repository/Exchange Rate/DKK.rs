@@ -3,11 +3,11 @@
    <description></description>
    <name>DKK</name>
    <tag></tag>
-   <elementGuidId>1f35f8c1-cea9-449b-9e3b-76817813dc9e</elementGuidId>
+   <elementGuidId>314de56c-727b-433b-93f3-2772ea826e85</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/app-root/app-layout/div/div/div/div/app-exchange-conf/div/div[1]/div[2]/div/button</value>
+         <value>html/body/modal-container/div/div/form/div[2]/table/tbody/tr[1]/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/app-root/app-layout/div/div/div/div/app-exchange-conf/div/div[1]/div[2]/div/button</value>
+      <value>html/body/modal-container/div/div/form/div[2]/table/tbody/tr[1]/td[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

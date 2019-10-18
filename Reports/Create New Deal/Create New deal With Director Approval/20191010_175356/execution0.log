@@ -1,0 +1,3202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238009</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Create New Deal/Create New deal With Director Approval</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Create New deal With Director Approval</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Create New Deal/Create New deal With Director Approval</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238025</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = sambhavi - sambhavi.jmandigital.in</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">sambhavi - sambhavi.jmandigital.in</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238027</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238028</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.185</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.185</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238029</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.5.10</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.5.10</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238315</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/CreateNewDeal/Create New deal with director Approval</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/CreateNewDeal/Create New deal with director Approval</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/CreateNewDeal/Create New deal with director Approval</property>
+  <property name="source">C:\\Users\\sambhavi\\git\\thortal\\Test Cases\\CreateNewDeal\\Create New deal with director Approval.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238922</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Creating deal with \&amp;quot;Director Approval\&amp;quot; which effects in \&amp;quot;Invoice Bank \&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238985</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Creating deal with \&amp;quot;Director Approval\&amp;quot; which effects in \&amp;quot;Invoice Bank \&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238990</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Creating deal with \&amp;quot;Director Approval\&amp;quot; which effects in \&amp;quot;Invoice Bank \&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:53:58</date>
+  <millis>1570710238991</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;THORtal Login/login\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:59</date>
+  <millis>1570710239099</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/THORtal Login/login</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/THORtal Login/login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/THORtal Login/login</property>
+  <property name="source">C:\\Users\\sambhavi\\git\\thortal\\Test Cases\\THORtal Login\\login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:59</date>
+  <millis>1570710239286</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;http://192.168.0.28:4205/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open browser</property>
+</record>
+<record>
+  <date>2019-10-10T17:53:59</date>
+  <millis>1570710239517</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:53:59</date>
+  <millis>1570710239559</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:02</date>
+  <millis>1570710242709</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = b28996c304fb32f3e5e7ca9385cafdc7</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">b28996c304fb32f3e5e7ca9385cafdc7</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:02</date>
+  <millis>1570710242739</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 77.0.3865.90</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 77.0.3865.90</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:02</date>
+  <millis>1570710242739</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:02</date>
+  <millis>1570710242742</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:02</date>
+  <millis>1570710242744</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:05</date>
+  <millis>1570710245786</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://192.168.0.28:4205/&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:05</date>
+  <millis>1570710245788</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;http://192.168.0.28:4205/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:05</date>
+  <millis>1570710245788</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Maximize the opened browser</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:06</date>
+  <millis>1570710246955</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:06</date>
+  <millis>1570710246956</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:06</date>
+  <millis>1570710246957</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Print message on console log</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:06</date>
+  <millis>1570710246958</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:06</date>
+  <millis>1570710246958</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Check whether User Name field exists or not</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:06</date>
+  <millis>1570710246959</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log.logInfo(\&amp;quot;---------User Name exists --------------\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:06</date>
+  <millis>1570710246960</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>---------User Name exists --------------</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:06</date>
+  <millis>1570710246961</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log.logInfo(\&amp;quot;---------User Name exists --------------\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:06</date>
+  <millis>1570710246961</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Login/User Name\&amp;quot;), \&amp;quot;nick\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Enter User name</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247105</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;nick&amp;apos; is set on object &amp;apos;Object Repository/Login/User Name&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247106</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Login/User Name\&amp;quot;), \&amp;quot;nick\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247107</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247107</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+  <property name="description">Check whether Password field exists or not</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247109</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log.logInfo(\&amp;quot;---------password exists --------------\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247109</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>---------password exists --------------</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247110</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log.logInfo(\&amp;quot;---------password exists --------------\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247110</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;AdUMoLaE2tWuHJEBZev0OA==\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Enter Password</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247283</millis>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Login/Password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247284</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;AdUMoLaE2tWuHJEBZev0OA==\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247284</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247284</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Check whether Log In button exists or not</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247285</millis>
+  <sequence>70</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log.logInfo(\&amp;quot;---------Log In  exists --------------\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247285</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>---------Log In  exists --------------</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247286</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log.logInfo(\&amp;quot;---------Log In  exists --------------\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247286</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Login/signin\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Click on login button</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247368</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login/signin&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247369</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Login/signin\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247369</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:07</date>
+  <millis>1570710247369</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252378</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252379</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252379</millis>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : currentpageurl = getUrl()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">14</property>
+  <property name="description">Check if login was proper or not</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252404</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window&amp;apos;s url is: &amp;apos;http://192.168.0.28:4205/dashboard&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252404</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : currentpageurl = getUrl()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252404</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (!(currentpageurl.equals(\&amp;quot;http://192.168.0.28:4205/dashboard\&amp;quot;)))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252406</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (!(currentpageurl.equals(\&amp;quot;http://192.168.0.28:4205/dashboard\&amp;quot;)))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252407</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252408</millis>
+  <sequence>94</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log.logInfo(\&amp;quot;--------- Sucessfull Log In --------------\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">69</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252409</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>--------- Sucessfull Log In --------------</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252409</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log.logInfo(\&amp;quot;--------- Sucessfull Log In --------------\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252409</millis>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252409</millis>
+  <sequence>98</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/THORtal Login/login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252410</millis>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/THORtal Login/login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252416</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/THORtal Login/login&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252417</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;THORtal Login/login\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252417</millis>
+  <sequence>102</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : today = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Current date</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252423</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : today = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252423</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : todayDate = today.format(\&amp;quot;dd/MM/yyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252431</millis>
+  <sequence>105</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : todayDate = today.format(\&amp;quot;dd/MM/yyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252431</millis>
+  <sequence>106</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pastdate = today - 5</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Getting past date</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252433</millis>
+  <sequence>107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pastdate = today - 5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252433</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pastdate2 = pastdate.format(\&amp;quot;dd/MM/yyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252434</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pastdate2 = pastdate.format(\&amp;quot;dd/MM/yyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252435</millis>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : futuredate = today + 5</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">7</property>
+  <property name="description">Getting future date</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252438</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : futuredate = today + 5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252438</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : futuredate2 = futuredate.format(\&amp;quot;dd/MM/yyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252439</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : futuredate2 = futuredate.format(\&amp;quot;dd/MM/yyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252439</millis>
+  <sequence>114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : rb = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">9</property>
+  <property name="description">For keyboard actions</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252485</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : rb = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252485</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Print message on console log</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252486</millis>
+  <sequence>117</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252486</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Configurations/Create New Deal\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">11</property>
+  <property name="description">Create New Deal</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252619</millis>
+  <sequence>125</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Configurations/Create New Deal&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252620</millis>
+  <sequence>126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Configurations/Create New Deal\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252620</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getUrl() == \&amp;quot;http://192.168.0.28:4205/saleslogs/new/parent\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">12</property>
+  <property name="description"> Verify Create Deals page or not</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252856</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window&amp;apos;s url is: &amp;apos;http://192.168.0.28:4205/saleslogs/new/parent&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252857</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(\&amp;quot;Create New Deal - page\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252870</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(\&amp;quot;Create New Deal - page\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:12</date>
+  <millis>1570710252870</millis>
+  <sequence>132</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">61</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:17</date>
+  <millis>1570710257873</millis>
+  <sequence>134</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:17</date>
+  <millis>1570710257875</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:17</date>
+  <millis>1570710257876</millis>
+  <sequence>136</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/div_NS\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Select Thor Consultant</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258389</millis>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/div_NS&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258390</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/div_NS\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258390</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Thor Consultant Search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(1, 1))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258601</millis>
+  <sequence>160</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;SU&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Thor Consultant Search&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258602</millis>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Thor Consultant Search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(1, 1))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258602</millis>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Thor Consultant First\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258852</millis>
+  <sequence>169</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Thor Consultant First&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258852</millis>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Thor Consultant First\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258852</millis>
+  <sequence>171</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : company = \&amp;quot;TC Ltd\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">71</property>
+  <property name="stepIndex">6</property>
+  <property name="description">Select Company</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258853</millis>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : company = \&amp;quot;TC Ltd\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:18</date>
+  <millis>1570710258853</millis>
+  <sequence>173</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Company\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">73</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259062</millis>
+  <sequence>180</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Company&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259062</millis>
+  <sequence>181</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Company\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259063</millis>
+  <sequence>182</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (company.equals(\&amp;quot;TC Inc\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259063</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (company.equals(\&amp;quot;TC Inc\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259064</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else if (company.equals(\&amp;quot;TC Ltd\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">77</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259064</millis>
+  <sequence>185</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Page_Thor/li_TC Ltd\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259292</millis>
+  <sequence>192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Page_Thor/li_TC Ltd&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259293</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Page_Thor/li_TC Ltd\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259293</millis>
+  <sequence>194</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else if (company.equals(\&amp;quot;TC Ltd\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:19</date>
+  <millis>1570710259293</millis>
+  <sequence>195</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">83</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:22</date>
+  <millis>1570710262296</millis>
+  <sequence>197</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:22</date>
+  <millis>1570710262297</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:22</date>
+  <millis>1570710262297</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/brand main\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">86</property>
+  <property name="stepIndex">12</property>
+  <property name="description">Select Brand</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:22</date>
+  <millis>1570710262554</millis>
+  <sequence>206</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/brand main&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:22</date>
+  <millis>1570710262555</millis>
+  <sequence>207</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/brand main\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:22</date>
+  <millis>1570710262555</millis>
+  <sequence>208</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Brand search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(2, 1))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">88</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:22</date>
+  <millis>1570710262792</millis>
+  <sequence>223</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Thor Bio&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Brand search&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:22</date>
+  <millis>1570710262793</millis>
+  <sequence>224</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Brand search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(2, 1))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:22</date>
+  <millis>1570710262793</millis>
+  <sequence>225</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Brand first\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">90</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:23</date>
+  <millis>1570710263034</millis>
+  <sequence>232</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Brand first&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:23</date>
+  <millis>1570710263034</millis>
+  <sequence>233</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Brand first\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:23</date>
+  <millis>1570710263034</millis>
+  <sequence>234</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">92</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266036</millis>
+  <sequence>236</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266038</millis>
+  <sequence>237</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266038</millis>
+  <sequence>238</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/deal_date\&amp;quot;), todayDate)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">105</property>
+  <property name="stepIndex">16</property>
+  <property name="description">Select Deal Date</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266302</millis>
+  <sequence>250</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;10/10/2019&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/deal_date&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266303</millis>
+  <sequence>251</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/deal_date\&amp;quot;), todayDate)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266303</millis>
+  <sequence>252</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : \&amp;quot;Enter second grid details \&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">107</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266303</millis>
+  <sequence>253</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : \&amp;quot;Enter second grid details \&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266303</millis>
+  <sequence>254</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Candidate Name\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">110</property>
+  <property name="stepIndex">18</property>
+  <property name="description">Select Candidate Name</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266655</millis>
+  <sequence>269</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Automation4&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Candidate Name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266655</millis>
+  <sequence>270</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Candidate Name\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:26</date>
+  <millis>1570710266655</millis>
+  <sequence>271</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">112</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:29</date>
+  <millis>1570710269658</millis>
+  <sequence>273</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:29</date>
+  <millis>1570710269659</millis>
+  <sequence>274</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:29</date>
+  <millis>1570710269660</millis>
+  <sequence>275</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Client\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">115</property>
+  <property name="stepIndex">20</property>
+  <property name="description">Select Client</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:29</date>
+  <millis>1570710269915</millis>
+  <sequence>282</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Client&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:29</date>
+  <millis>1570710269915</millis>
+  <sequence>283</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Client\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:29</date>
+  <millis>1570710269915</millis>
+  <sequence>284</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/client Search\&amp;quot;), \&amp;quot;dfff\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">117</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270084</millis>
+  <sequence>296</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;dfff&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/client Search&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270084</millis>
+  <sequence>297</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/client Search\&amp;quot;), \&amp;quot;dfff\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270085</millis>
+  <sequence>298</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/client First\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270305</millis>
+  <sequence>305</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/client First&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270305</millis>
+  <sequence>306</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/client First\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270305</millis>
+  <sequence>307</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Currency\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">122</property>
+  <property name="stepIndex">23</property>
+  <property name="description">Select Currency Type</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270504</millis>
+  <sequence>314</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Currency&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270505</millis>
+  <sequence>315</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Currency\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270505</millis>
+  <sequence>316</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Currency search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(13, 1))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">124</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270660</millis>
+  <sequence>331</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;GBP&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Currency search&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270661</millis>
+  <sequence>332</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Currency search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(13, 1))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270661</millis>
+  <sequence>333</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Currency first\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">126</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270901</millis>
+  <sequence>340</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Currency first&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270902</millis>
+  <sequence>341</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Currency first\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:30</date>
+  <millis>1570710270902</millis>
+  <sequence>342</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">128</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:33</date>
+  <millis>1570710273905</millis>
+  <sequence>344</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:33</date>
+  <millis>1570710273907</millis>
+  <sequence>345</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:33</date>
+  <millis>1570710273908</millis>
+  <sequence>346</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : a = findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(4, 1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">131</property>
+  <property name="stepIndex">27</property>
+  <property name="description">Select Contractor Type </property>
+</record>
+<record>
+  <date>2019-10-10T17:54:33</date>
+  <millis>1570710273924</millis>
+  <sequence>350</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : a = findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(4, 1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:33</date>
+  <millis>1570710273924</millis>
+  <sequence>351</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Contract Type\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">133</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274146</millis>
+  <sequence>358</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Contract Type&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274146</millis>
+  <sequence>359</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Contract Type\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274146</millis>
+  <sequence>360</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (a.equals(\&amp;quot;Contractor\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">136</property>
+  <property name="stepIndex">29</property>
+  <property name="description">Contractor</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274147</millis>
+  <sequence>361</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (a.equals(\&amp;quot;Contractor\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274147</millis>
+  <sequence>362</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else if (a.equals(\&amp;quot;Permanent\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">206</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274148</millis>
+  <sequence>363</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Contract type-2\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">207</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274370</millis>
+  <sequence>370</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Contract type-2&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274371</millis>
+  <sequence>371</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Contract type-2\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274371</millis>
+  <sequence>372</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Page_Thor/div_Sales Category\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">210</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Select Sales Category</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274571</millis>
+  <sequence>379</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Page_Thor/div_Sales Category&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274571</millis>
+  <sequence>380</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Page_Thor/div_Sales Category\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274572</millis>
+  <sequence>381</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/sales category search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(9, 1))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">212</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274784</millis>
+  <sequence>396</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Full deal&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/sales category search&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274784</millis>
+  <sequence>397</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/sales category search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(9, 1))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:34</date>
+  <millis>1570710274785</millis>
+  <sequence>398</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Sales first\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">215</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275016</millis>
+  <sequence>405</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Sales first&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275017</millis>
+  <sequence>406</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Sales first\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275017</millis>
+  <sequence>407</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Billable salaary\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(11, 1))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">218</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Enter Billable Salary </property>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275176</millis>
+  <sequence>422</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;500&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Billable salaary&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275177</millis>
+  <sequence>423</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Billable salaary\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(11, 1))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275177</millis>
+  <sequence>424</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Thor Rate\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(12, 1))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">222</property>
+  <property name="stepIndex">6</property>
+  <property name="description">Thor Rate  </property>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275316</millis>
+  <sequence>439</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;50&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Thor Rate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275317</millis>
+  <sequence>440</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Thor Rate\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(12, 1))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275317</millis>
+  <sequence>441</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : \&amp;quot;Enter details to third Grid \&amp;quot;</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">224</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275318</millis>
+  <sequence>442</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : \&amp;quot;Enter details to third Grid \&amp;quot;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275318</millis>
+  <sequence>443</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Start Dtae\&amp;quot;), pastdate2)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">227</property>
+  <property name="stepIndex">8</property>
+  <property name="description">Start Date</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275545</millis>
+  <sequence>455</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;05/10/2019&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Start Dtae&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275546</millis>
+  <sequence>456</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Start Dtae\&amp;quot;), pastdate2)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275546</millis>
+  <sequence>457</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Invoice to be sent\&amp;quot;), todayDate)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">230</property>
+  <property name="stepIndex">9</property>
+  <property name="description">Invoice to be sent Date</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275769</millis>
+  <sequence>469</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;10/10/2019&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Invoice to be sent&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275769</millis>
+  <sequence>470</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Invoice to be sent\&amp;quot;), todayDate)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275769</millis>
+  <sequence>471</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else if (a.equals(\&amp;quot;Permanent\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275769</millis>
+  <sequence>472</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Invoice to be sent\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">259</property>
+  <property name="stepIndex">32</property>
+  <property name="description">Invoice to be sent</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275846</millis>
+  <sequence>478</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;TAB + &amp;apos; sent to object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Invoice to be sent&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275847</millis>
+  <sequence>479</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Invoice to be sent\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275847</millis>
+  <sequence>480</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : rb.keyPress(VK_SPACE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">261</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275870</millis>
+  <sequence>481</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : rb.keyPress(VK_SPACE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275870</millis>
+  <sequence>482</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : rb.keyRelease(VK_SPACE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">263</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275876</millis>
+  <sequence>483</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : rb.keyRelease(VK_SPACE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:35</date>
+  <millis>1570710275879</millis>
+  <sequence>484</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Invoice Number\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">266</property>
+  <property name="stepIndex">35</property>
+  <property name="description">Invoice Number</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276314</millis>
+  <sequence>491</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Invoice Number&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276314</millis>
+  <sequence>492</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Invoice Number\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276315</millis>
+  <sequence>493</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Client reference number\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">269</property>
+  <property name="stepIndex">36</property>
+  <property name="description">Director Approval</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276554</millis>
+  <sequence>500</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Client reference number&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276555</millis>
+  <sequence>501</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Client reference number\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276555</millis>
+  <sequence>502</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Client reference number\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">271</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276612</millis>
+  <sequence>508</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;TAB + &amp;apos; sent to object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Client reference number&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276613</millis>
+  <sequence>509</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Client reference number\&amp;quot;), Keys.chord(TAB))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276613</millis>
+  <sequence>510</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : rb.keyPress(VK_SPACE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">273</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276614</millis>
+  <sequence>511</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : rb.keyPress(VK_SPACE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276614</millis>
+  <sequence>512</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : rb.keyRelease(VK_SPACE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">275</property>
+  <property name="stepIndex">39</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276615</millis>
+  <sequence>513</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : rb.keyRelease(VK_SPACE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276615</millis>
+  <sequence>514</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">278</property>
+  <property name="stepIndex">40</property>
+  <property name="description">Click on Save button</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276961</millis>
+  <sequence>521</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Save&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276961</millis>
+  <sequence>522</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Save\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:36</date>
+  <millis>1570710276961</millis>
+  <sequence>523</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : errormessage = getText(findTestObject(\&amp;quot;Object Repository/CreateNewDeal/Page_Thor/Main/error messgae\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">280</property>
+  <property name="stepIndex">41</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:38</date>
+  <millis>1570710278589</millis>
+  <sequence>530</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/error messgae&amp;apos; is: &amp;apos;Deal created successfully&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:38</date>
+  <millis>1570710278590</millis>
+  <sequence>531</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : errormessage = getText(findTestObject(\&amp;quot;Object Repository/CreateNewDeal/Page_Thor/Main/error messgae\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:38</date>
+  <millis>1570710278590</millis>
+  <sequence>532</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log.logInfo(errormessage)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">282</property>
+  <property name="stepIndex">42</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:38</date>
+  <millis>1570710278590</millis>
+  <sequence>533</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Deal created successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:38</date>
+  <millis>1570710278590</millis>
+  <sequence>534</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log.logInfo(errormessage)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:38</date>
+  <millis>1570710278591</millis>
+  <sequence>535</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (errormessage.equalsIgnoreCase(\&amp;quot;Deal created successfully\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">284</property>
+  <property name="stepIndex">43</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:38</date>
+  <millis>1570710278591</millis>
+  <sequence>536</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">285</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:43</date>
+  <millis>1570710283593</millis>
+  <sequence>538</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:43</date>
+  <millis>1570710283594</millis>
+  <sequence>539</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:43</date>
+  <millis>1570710283595</millis>
+  <sequence>540</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getUrl() == \&amp;quot;http://192.168.0.28:4205/saleslog\&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">288</property>
+  <property name="stepIndex">2</property>
+  <property name="description"> Verify Sales log page or not</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:43</date>
+  <millis>1570710283616</millis>
+  <sequence>542</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window&amp;apos;s url is: &amp;apos;http://192.168.0.28:4205/saleslog&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:43</date>
+  <millis>1570710283616</millis>
+  <sequence>543</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(\&amp;quot;Sales log - page\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">289</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:43</date>
+  <millis>1570710283617</millis>
+  <sequence>544</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(\&amp;quot;Sales log - page\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:43</date>
+  <millis>1570710283617</millis>
+  <sequence>545</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">292</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Search Created Deal</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:45</date>
+  <millis>1570710285252</millis>
+  <sequence>560</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Automation4&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Main/Search&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:45</date>
+  <millis>1570710285252</millis>
+  <sequence>561</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;CreateNewDeal/Page_Thor/Main/Search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:45</date>
+  <millis>1570710285253</millis>
+  <sequence>562</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">294</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:48</date>
+  <millis>1570710288254</millis>
+  <sequence>564</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:48</date>
+  <millis>1570710288256</millis>
+  <sequence>565</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:48</date>
+  <millis>1570710288257</millis>
+  <sequence>566</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyTextPresent(findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1), false, OPTIONAL)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">297</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Checking whether Deal is created or not</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:48</date>
+  <millis>1570710288614</millis>
+  <sequence>572</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Automation4&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:48</date>
+  <millis>1570710288615</millis>
+  <sequence>573</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyTextPresent(findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1), false, OPTIONAL)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:48</date>
+  <millis>1570710288615</millis>
+  <sequence>574</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">299</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291618</millis>
+  <sequence>576</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291620</millis>
+  <sequence>577</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291620</millis>
+  <sequence>578</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Configurations/Invoice Bank\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">302</property>
+  <property name="stepIndex">6</property>
+  <property name="description">Click on Invoice bank</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291802</millis>
+  <sequence>585</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Configurations/Invoice Bank&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291803</millis>
+  <sequence>586</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Configurations/Invoice Bank\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291803</millis>
+  <sequence>587</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getUrl() == \&amp;quot;http://192.168.0.28:4205/invoice\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">305</property>
+  <property name="stepIndex">7</property>
+  <property name="description"> Verify Invoice bank page or not</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291813</millis>
+  <sequence>589</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window&amp;apos;s url is: &amp;apos;http://192.168.0.28:4205/invoice&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291814</millis>
+  <sequence>590</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(\&amp;quot;Invoice Bank - page\&amp;quot;)</message>
+  <nestedLevel>5</nestedLevel>
+  <property name="startLine">306</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291815</millis>
+  <sequence>591</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(\&amp;quot;Invoice Bank - page\&amp;quot;)</message>
+  <nestedLevel>5</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:51</date>
+  <millis>1570710291815</millis>
+  <sequence>592</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/CreateNewDeal/Page_Thor/Invoice search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>5</nestedLevel>
+  <property name="startLine">309</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Search Director approval Deal</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:52</date>
+  <millis>1570710292839</millis>
+  <sequence>607</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Automation4&amp;apos; is set on object &amp;apos;Object Repository/CreateNewDeal/Page_Thor/Invoice search&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:52</date>
+  <millis>1570710292840</millis>
+  <sequence>608</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/CreateNewDeal/Page_Thor/Invoice search\&amp;quot;), findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>5</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:52</date>
+  <millis>1570710292840</millis>
+  <sequence>609</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>5</nestedLevel>
+  <property name="startLine">312</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:55</date>
+  <millis>1570710295842</millis>
+  <sequence>611</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:55</date>
+  <millis>1570710295844</millis>
+  <sequence>612</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>5</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:55</date>
+  <millis>1570710295845</millis>
+  <sequence>613</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyTextPresent(findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1), false, OPTIONAL)</message>
+  <nestedLevel>5</nestedLevel>
+  <property name="startLine">315</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Checking whether Director approval  Deal exists or not</property>
+</record>
+<record>
+  <date>2019-10-10T17:54:56</date>
+  <millis>1570710296073</millis>
+  <sequence>619</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Automation4&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:56</date>
+  <millis>1570710296073</millis>
+  <sequence>620</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyTextPresent(findTestData(\&amp;quot;Create New Deal\&amp;quot;).getValue(3, 1), false, OPTIONAL)</message>
+  <nestedLevel>5</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:56</date>
+  <millis>1570710296073</millis>
+  <sequence>621</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getUrl() == \&amp;quot;http://192.168.0.28:4205/invoice\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:56</date>
+  <millis>1570710296073</millis>
+  <sequence>622</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getUrl() == \&amp;quot;http://192.168.0.28:4205/saleslog\&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:56</date>
+  <millis>1570710296073</millis>
+  <sequence>623</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (errormessage.equalsIgnoreCase(\&amp;quot;Deal created successfully\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:56</date>
+  <millis>1570710296073</millis>
+  <sequence>624</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getUrl() == \&amp;quot;http://192.168.0.28:4205/saleslogs/new/parent\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:56</date>
+  <millis>1570710296073</millis>
+  <sequence>625</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/CreateNewDeal/Create New deal with director Approval</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:56</date>
+  <millis>1570710296074</millis>
+  <sequence>626</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/CreateNewDeal/Create New deal with director Approval</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-10T17:54:56</date>
+  <millis>1570710296810</millis>
+  <sequence>627</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Create New Deal/Create New deal With Director Approval</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

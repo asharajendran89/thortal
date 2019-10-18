@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Close</name>
+   <tag></tag>
+   <elementGuidId>35a54afa-d8f4-466a-a48a-bae341861b76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/modal-container/div/div/form/div[3]/div/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/modal-container/div/div/form/div[3]/div/button[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 'Open browser'
-WebUI.openBrowser('http://192.168.0.28:4204/')
+WebUI.openBrowser('http://192.168.0.28:4205/')
 
 'Maximize the opened browser'
 WebUI.maximizeWindow()
@@ -26,7 +26,8 @@ KeywordLogger log = new KeywordLogger()
 'Check whether User Name field exists or not'
 try {
     log.logInfo('---------User Name exists --------------')
-'Enter User name'
+
+    'Enter User name'
     WebUI.setText(findTestObject('Login/User Name'), 'nick')
 }
 catch (Throwable e) {
@@ -36,7 +37,8 @@ catch (Throwable e) {
 'Check whether Password field exists or not'
 try {
     log.logInfo('---------password exists --------------')
-'Enter Password'
+
+    'Enter Password'
     WebUI.setEncryptedText(findTestObject('Login/Password'), 'AdUMoLaE2tWuHJEBZev0OA==')
 }
 catch (Throwable e) {
@@ -46,7 +48,8 @@ catch (Throwable e) {
 'Check whether Log In button exists or not'
 try {
     log.logInfo('---------Log In  exists --------------')
-'Click on login button'
+
+    'Click on login button'
     WebUI.click(findTestObject('Login/signin'))
 }
 catch (Throwable e) {
@@ -58,8 +61,8 @@ WebUI.delay(5)
 'Check if login was proper or not'
 currentpageurl = WebUI.getUrl()
 
-if (!(currentpageurl.equals('http://192.168.0.28:4204/dashboard'))) {
-    errormessage = WebUI.getText(findTestObject('Login/errormessage'))
+if (!(currentpageurl.equals('http://192.168.0'))) {
+    errormessage = WebUI.getText(findTestObject('Object Repository/Login/Error'))
 
     log.logInfo(errormessage)
 } else {

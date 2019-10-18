@@ -37,7 +37,7 @@ WebUI.delay(3)
 KeywordLogger log = new KeywordLogger()
 
 ' Verify Clients page or not'
-if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/teams') {
+if (WebUI.getUrl() == 'http://192.168.0.28:4205/configuration/teams') {
     System.out.println('Congiguration/Teams - page')
 
     'Click on New Teams Button'
@@ -46,7 +46,8 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/teams') {
     WebUI.delay(3)
 
     'Enter Teams Name'
-    WebUI.setText(findTestObject('Teams/Page_Thor/Team name'), findTestData('Teams Data').getValue(2, 1))
+    WebUI.setText(findTestObject('Object Repository/Teams/Page_Thor/Tname'), findTestData('Configuration/Teams Data').getValue(
+            1, 1))
 
     WebUI.delay(3)
 
@@ -56,7 +57,7 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/teams') {
     WebUI.delay(0)
 
     'Search dropdown value'
-    WebUI.setText(findTestObject('Teams/Page_Thor/Brand Search'), findTestData('Teams Data').getValue(1, 1))
+    WebUI.setText(findTestObject('Teams/Page_Thor/Brand Search'), findTestData('Configuration/Teams Data').getValue(2, 1))
 
     WebUI.delay(0)
 
@@ -74,10 +75,11 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/teams') {
         WebUI.delay(5)
 
         'Search Team Name'
-        WebUI.setText(findTestObject('Teams/Page_Thor/Team search'), findTestData('Teams Data').getValue(2, 1))
+        WebUI.setText(findTestObject('Teams/Page_Thor/Team search'), findTestData('Configuration/Teams Data').getValue(1, 
+                1))
 
         'Check Whether the Team is created or not'
-        WebUI.verifyTextPresent(findTestData('Teams Data').getValue(2, 1), false, FailureHandling.OPTIONAL)
+        WebUI.verifyTextPresent(findTestData('Configuration/Teams Data').getValue(1, 1), false, FailureHandling.OPTIONAL)
     } else {
         System.out.println('Team doesnt added Message: ' + errormessage)
     }

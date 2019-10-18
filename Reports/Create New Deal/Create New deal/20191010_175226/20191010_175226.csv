@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create New deal,Chrome 77.0.3865.90,,2019-10-10 17:52:28,2019-10-10 17:52:45,16.868s,PASSED
+,,,,,,
+Test Cases/THORtal Login/login,Chrome 77.0.3865.90,,2019-10-10 17:52:28,2019-10-10 17:52:43,14.707s,PASSED
+"openBrowser(""http://192.168.0.28:4205/"")",Chrome 77.0.3865.90,Open browser,2019-10-10 17:52:29,2019-10-10 17:52:36,7.600s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,Maximize the opened browser,2019-10-10 17:52:36,2019-10-10 17:52:37,1.186s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.90,Print message on console log,2019-10-10 17:52:37,2019-10-10 17:52:37,0.002s,PASSED
+try,Chrome 77.0.3865.90,Check whether User Name field exists or not,2019-10-10 17:52:37,2019-10-10 17:52:38,0.165s,PASSED
+try,Chrome 77.0.3865.90,Check whether Password field exists or not,2019-10-10 17:52:38,2019-10-10 17:52:38,0.188s,PASSED
+try,Chrome 77.0.3865.90,Check whether Log In button exists or not,2019-10-10 17:52:38,2019-10-10 17:52:38,0.103s,PASSED
+delay(5),Chrome 77.0.3865.90,,2019-10-10 17:52:38,2019-10-10 17:52:43,5.025s,PASSED
+currentpageurl = getUrl(),Chrome 77.0.3865.90,Check if login was proper or not,2019-10-10 17:52:43,2019-10-10 17:52:43,0.042s,PASSED
+"if (!(currentpageurl.equals(""http://192.168.0.28:4205/dashboard"")))",Chrome 77.0.3865.90,,2019-10-10 17:52:43,2019-10-10 17:52:43,0.003s,PASSED
+else,Chrome 77.0.3865.90,,2019-10-10 17:52:43,2019-10-10 17:52:43,0.004s,PASSED
+,,,,,,
+Test Cases/CreateNewDeal/Create New Deal,Chrome 77.0.3865.90,,2019-10-10 17:52:43,2019-10-10 17:52:44,1.045s,PASSED
+"comment(""Creating New Deal which effects on""Sales Log"""")",Chrome 77.0.3865.90,,2019-10-10 17:52:44,2019-10-10 17:52:44,0.023s,PASSED
+today = new java.util.Date(),Chrome 77.0.3865.90,Getting current date,2019-10-10 17:52:44,2019-10-10 17:52:44,0.024s,PASSED
+"todayDate = today.format(""dd/MM/yyy"")",Chrome 77.0.3865.90,,2019-10-10 17:52:44,2019-10-10 17:52:44,0.003s,PASSED
+pdate = today - 5,Chrome 77.0.3865.90,Getting Past date,2019-10-10 17:52:44,2019-10-10 17:52:44,0.003s,PASSED
+"pdate2 = pdate.format(""dd/MM/yyy"")",Chrome 77.0.3865.90,,2019-10-10 17:52:44,2019-10-10 17:52:44,0.001s,PASSED
+futuredate = today + 5,Chrome 77.0.3865.90,Getting Future date,2019-10-10 17:52:44,2019-10-10 17:52:44,0.002s,PASSED
+"futuredate2 = futuredate.format(""dd/MM/yyy"")",Chrome 77.0.3865.90,,2019-10-10 17:52:44,2019-10-10 17:52:44,0.001s,PASSED
+rb = new java.awt.Robot(),Chrome 77.0.3865.90,For keyboard actions,2019-10-10 17:52:44,2019-10-10 17:52:44,0.276s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.90,Print message on console log,2019-10-10 17:52:44,2019-10-10 17:52:44,0.002s,PASSED
+"click(findTestObject(""Configurations/Create New Deal""))",Chrome 77.0.3865.90,Create New Deal,2019-10-10 17:52:44,2019-10-10 17:52:44,0.131s,PASSED
+"if (getUrl() == ""http://192.168.0.28:4205/saleslogs/new/parent"")",Chrome 77.0.3865.90, Verify Create New Deals page or not,2019-10-10 17:52:44,2019-10-10 17:52:44,0.009s,PASSED
+else,Chrome 77.0.3865.90,,2019-10-10 17:52:44,2019-10-10 17:52:44,0.008s,PASSED

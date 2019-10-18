@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Deal</name>
+   <tag></tag>
+   <comment>Creating New Deal which effects on&quot;Sales Log&quot;</comment>
+   <testCaseGuid>2df6f80f-3a89-41cb-a768-e74ca9e96df9</testCaseGuid>
+</TestCaseEntity>

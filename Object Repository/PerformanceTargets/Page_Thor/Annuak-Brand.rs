@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Annuak-Brand</name>
+   <tag></tag>
+   <elementGuidId>033207c9-f99b-4d7b-85dc-b1a5a13f4eff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/modal-container/div/div/form/div[2]/form-input[3]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/modal-container/div/div/form/div[2]/form-input[3]/div/input</value>
+   </webElementProperties>
+</WebElementEntity>

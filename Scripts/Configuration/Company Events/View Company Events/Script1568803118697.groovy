@@ -35,8 +35,10 @@ WebUI.delay(5)
 'Click on comapany events button'
 WebUI.click(findTestObject('Company Events/Page_Thor/Company event button'))
 
+WebUI.delay(5)
+
 ' Verify CompanyEvents page or not'
-if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/company_events') {
+if (WebUI.getUrl() == 'http://192.168.0.28:4205/configuration/company_events') {
     System.out.println('Congiguration/Company Events - page')
 
     WebUI.delay(5)
@@ -57,41 +59,43 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/company_events') {
     'To Print Column Size'
     java.lang.System.out.println(col.size())
 
-    if (rows.size() >= 1) {
-        System.out.println('Data Exists')
-
-        'Generating Random Edit Within Row Size'
-        Random rad = new Random()
-
-        int rowscount = rad.nextInt(rows.size)
-
+   // if (rows.size() >= 1) {
+       // System.out.println('Data Exists')
+	
+	if(WebUI.verifyTextPresent('No data available in table', false, FailureHandling.OPTIONAL)){
+		System.out.println('No data available in table')
+		
+	}
+	else{
+       
+		System.out.println('Data exists')
+		
         WebUI.delay(5)
 
         TitleText = WebUI.getText(findTestObject('Object Repository/Company Events/Page_Thor/tiltile field'))
 
         System.out.println(TitleText)
 
-        'Click on Random Edit'
+        'Click on  View Button'
         driver.findElement(By.xpath('html/body/app-root/app-layout/div/div/div/div/app-company-events/div/div[2]/div/div/table/tbody/tr[1]/td[6]/a[2]')).click()
 
-        //WebUI.getText(findTestObject('Object Repository/Company Events/Page_Thor/Event Title'))
-        // TitleTextview = driver.findElement(By.xpath('html/body/modal-container/div/div/form/div[2]/form-input[2]/div/input')).getAttribute('Value');
-        'Verify whether edited name is updated or not'
-        WebUI.verifyElementText(findTestObject('Company Events/Page_Thor/View title'), 'Automation Edited')
-
-        //System.out.println(TitleTextview)
-        /*if (TitleText == a) {
-            System.out.println('Data Macthed')
-        } else {
-            System.out.println('Data Not Macthed')
-        }*/
+    
+		if(WebUI.verifyTextPresent(TitleText, false)){
+			System.out.println('Data Macthed')
+			
+		}
+		
+		else{
+			
+			System.out.println('Data Not Macthed')		
+		}
+		
         WebUI.delay(3)
 
-        WebUI.click(findTestObject('Company Events/Page_Thor/Close button'))
-    } else {
-        System.out.println('No Data to Edit')
-    }
+        WebUI.click(findTestObject('Company Events/Page_Thor/Close button'))	
+	}
 } else {
     System.out.println('Incorrect page')
 }
+
 

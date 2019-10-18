@@ -3,7 +3,7 @@
    <description></description>
    <name>USD</name>
    <tag></tag>
-   <elementGuidId>fbca4d98-a5c2-4109-8373-2f0272e22241</elementGuidId>
+   <elementGuidId>5e20a17f-1e23-4c39-8a66-f1eefd827988</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

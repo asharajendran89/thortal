@@ -14,6 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
+WebUI.comment('Create Company Events')
+
+'Calling Login Test case'
 WebUI.callTestCase(findTestCase('THORtal Login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
@@ -31,39 +34,50 @@ WebUI.delay(5)
 'Click on comapany events button'
 WebUI.click(findTestObject('Company Events/Page_Thor/Company event button'))
 
+WebUI.delay(5)
+
 ' Verify CompanyEvents page or not'
-if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/company_events') {
+if (WebUI.getUrl() == 'http://192.168.0.28:4205/configuration/company_events') {
     System.out.println('Congiguration/Company Events - page')
 
     WebUI.delay(5)
-'Click on New Event'
+
+    'Click on New Event'
     WebUI.click(findTestObject('Company Events/Page_Thor/New Event'))
-'Enter Title'
-    WebUI.setText(findTestObject('Company Events/Page_Thor/Event Title'), findTestData('Configuration/Comapny Events').getValue(
-            1, 1))
 
-    //Get the current system date
-    mydate = new Date()
+    'Enter Title'
+    WebUI.setText(findTestObject('Company Events/Page_Thor/Event Title'), findTestData('Configuration/Comapny Events').getValue(1, 1))
 
+     //Get the current system date
+	
+     mydate = new Date()
+	 
     formattedDate = mydate.format('dd/MM/yyy')
-'Enter Date'
+
+    'Enter Date'
     WebUI.setText(findTestObject('Company Events/Page_Thor/Event Date'), formattedDate)
-'Enter Start Hour'
+
+    'Enter Start Hour'
     WebUI.setText(findTestObject('Company Events/Page_Thor/Start time HH'), findTestData('Configuration/Comapny Events').getValue(
             2, 1))
-'ENter Start Minutes'
+
+    'ENter Start Minutes'
     WebUI.setText(findTestObject('Company Events/Page_Thor/Start Time MM'), findTestData('Configuration/Comapny Events').getValue(
             3, 1))
-'Enter End Hour'
+
+    'Enter End Hour'
     WebUI.setText(findTestObject('Company Events/Page_Thor/End Time HH'), findTestData('Configuration/Comapny Events').getValue(
             4, 1))
-'ENter End Minutes'
+
+    'ENter End Minutes'
     WebUI.setText(findTestObject('Company Events/Page_Thor/End Time MM'), findTestData('Configuration/Comapny Events').getValue(
             5, 1))
-'Enter Description'
+
+    'Enter Description'
     WebUI.setText(findTestObject('Company Events/Page_Thor/Description'), findTestData('Configuration/Comapny Events').getValue(
             6, 1))
-'Click on save Button'
+
+    'Click on save Button'
     WebUI.click(findTestObject('Company Events/Page_Thor/button_Save'))
 
     'Print message on console log'
@@ -84,26 +98,29 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/company_events') {
 
         'Checking whether Event is created or not'
         WebUI.verifyTextPresent(findTestData('Configuration/Comapny Events').getValue(1, 1), false, FailureHandling.OPTIONAL)
-    } else {
+    } 
+	else {
         System.out.println('Event doesnt added Message: ' + errormessage)
     }
-} else {
+} 
+else {
     System.out.println('Incorrect page')
 }
 
 WebUI.delay(3)
+
 'Click on Dashboard button'
 WebUI.click(findTestObject('Configurations/Dashboard'))
 
 if (WebUI.getUrl() == 'http://192.168.0.28:4204/dashboard') {
-	System.out.println('Dashboard- page')
+    System.out.println('Dashboard- page')
 
-	WebUI.delay(5)
-	'Verifying whether it is dispalying in dashboard page or not'
-	WebUI.verifyTextPresent(findTestData('Configuration/Comapny Events').getValue(1, 1), false, FailureHandling.OPTIONAL)
-	
-	
-}
+    WebUI.delay(5)
+
+    'Verifying whether it is dispalying in dashboard page or not'
+    WebUI.verifyTextPresent(findTestData('Configuration/Comapny Events').getValue(1, 1), false, FailureHandling.OPTIONAL)
+} 
 else {
-	System.out.println('Incorrect page')
+    System.out.println('Incorrect page')
 }
+

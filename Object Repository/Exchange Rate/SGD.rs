@@ -3,7 +3,7 @@
    <description></description>
    <name>SGD</name>
    <tag></tag>
-   <elementGuidId>ba104d58-c1fc-49da-9be8-decddd9d063c</elementGuidId>
+   <elementGuidId>23fd4459-a048-4b3b-8000-d0c9321856b4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

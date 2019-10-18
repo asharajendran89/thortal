@@ -35,7 +35,7 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Clients/Page_Thor/Page_Thor/Client button'))
 
 ' Verify Clients page or not'
-if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/clients') {
+if (WebUI.getUrl() == 'http://192.168.0.28:4205/configuration/clients') {
     System.out.println('Congiguration/Clients - page')
 
     WebUI.delay(5)
@@ -44,10 +44,12 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/clients') {
     WebUI.click(findTestObject('Object Repository/Clients/Page_Thor/Page_Thor/button_New Client'))
 
     'Enter Client Name'
-    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/ClientName'), findTestData('Clients').getValue(1, 1))
+    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/ClientName'), findTestData('Configuration/Clients').getValue(
+            1, 1))
 
     'Enter VAT Number'
-    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Client_vat_number'), findTestData('Clients').getValue(2, 1))
+    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Client_vat_number'), findTestData('Configuration/Clients').getValue(
+            2, 1))
 
     'Select VAT Status'
     String company = '20%'
@@ -63,15 +65,15 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/clients') {
     }
     
     'Enter Contact Name'
-    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Page_Thor/Contact Name'), findTestData('Clients').getValue(
+    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Page_Thor/Contact Name'), findTestData('Configuration/Clients').getValue(
             3, 1))
 
     'Enter Contact Email ID'
-    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Page_Thor/Contact Email'), findTestData('Clients').getValue(
+    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Page_Thor/Contact Email'), findTestData('Configuration/Clients').getValue(
             4, 1))
 
     'Enter Postal Address'
-    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Page_Thor/Contact postal address'), findTestData('Clients').getValue(
+    WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Page_Thor/Contact postal address'), findTestData('Configuration/Clients').getValue(
             5, 1))
 
     'Perform keyboard actions'
@@ -113,12 +115,13 @@ rb.keyRelease(KeyEvent.VK_ENTER);*/
         WebUI.delay(5)
 
         'Search Created client'
-        WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Search'), findTestData('Clients').getValue(1, 1))
+        WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Search'), findTestData('Configuration/Clients').getValue(
+                1, 1))
 
         WebUI.delay(3)
 
         'Checking whether client is created or not'
-        WebUI.verifyTextPresent(findTestData('Clients').getValue(1, 1), false, FailureHandling.OPTIONAL)
+        WebUI.verifyTextPresent(findTestData('Configuration/Clients').getValue(1, 1), false, FailureHandling.OPTIONAL)
     } else {
         System.out.println('Client doesnt added Message: ' + errormessage)
     }

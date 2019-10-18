@@ -21,8 +21,9 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
+
 //Call Login Page 
 WebUI.callTestCase(findTestCase('THORtal Login/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -42,9 +43,29 @@ WebUI.delay(5)
 'Select Thor Consultant'
 WebUI.click(findTestObject('CreateNewDeal/Page_Thor/div_NS'))
 
-WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/Thor Consultant Search'), findTestData('Sales').getValue(2, 1))
+WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/Thor Consultant Search'), findTestData('Create New Deal').getValue(1, 1))
 
 WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Thor Consultant First'))
+
+'Select Company'
+String company = 'TC Inc'
+
+WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Company'))
+
+if (company.equals('TC Inc')) {
+    log.logInfo('Already Selected')
+} else if (company.equals('TC Ltd')) {
+    WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Page_Thor/li_TC Ltd'))
+} else {
+    WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Page_Thor/li_TLS Ltd'))
+}
+
+'Select Brand'
+WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Brand'))
+
+WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/Brand Search'), findTestData('Sales').getValue(6, 1))
+
+WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Brand First'))
 
 'Select Assisting Manager'
 if (WebUI.verifyElementClickable(findTestObject('CreateNewDeal/Page_Thor/Assisting Manager'), FailureHandling.OPTIONAL)) {
@@ -57,28 +78,8 @@ if (WebUI.verifyElementClickable(findTestObject('CreateNewDeal/Page_Thor/Assisti
     WebUI.click(findTestObject('CreateNewDeal/Page_Thor/assisting Manager First'))
 }
 
-'Select Company'
-String company = 'TC Inc'
-
-WebUI.click(findTestObject('CreateNewDeal/Page_Thor/div_TC Inc'))
-
-if (company.equals('TC Inc')) {
-    log.logInfo('Already Selected')
-} else if (company.equals('TC Ltd')) {
-    WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Page_Thor/li_TC Ltd'))
-} else {
-    WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Page_Thor/li_TLS Ltd'))
-}
-
 'Select Deal Date'
 WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/deal_date'), formattedDate)
-
-'Select Brand'
-WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Brand'))
-
-WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/Brand Search'), findTestData('Sales').getValue(6, 1))
-
-WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Brand First'))
 
 'Select Candidate Name'
 WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/Candidate Name'), findTestData('Sales').getValue(7, 1))
@@ -180,15 +181,17 @@ WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/input_Invoice to be sent_i
 
 WebUI.delay(5)
 
-
-'Invoice Sent ?'
 //use tab
+'Invoice Sent ?'
 WebUI.sendKeys(findTestObject('CreateNewDeal/Page_Thor/input_Invoice to be sent_invoice_tobe_sent'), Keys.chord(Keys.TAB))
-Robot rb = new Robot()
-rb.keyPress( KeyEvent.VK_SPACE );
-rb.keyRelease(KeyEvent.VK_SPACE);
-//WebUI.sendKeys(findTestObject('CreateNewDeal/Page_Thor/input_Invoice to be sent_invoice_tobe_sent'), Keys.chord(Keys.SPACE))
 
+Robot rb = new Robot()
+
+rb.keyPress(KeyEvent.VK_SPACE)
+
+rb.keyRelease(KeyEvent.VK_SPACE)
+
+//WebUI.sendKeys(findTestObject('CreateNewDeal/Page_Thor/input_Invoice to be sent_invoice_tobe_sent'), Keys.chord(Keys.SPACE))
 'Invoice Sent Date'
 WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/input_Invoice Sent_invoice_sent_date'), formattedDate)
 
@@ -196,30 +199,33 @@ WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/input_Invoice Sent_invoice
 WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/input_Payment Terms_form-control ng-pristine ng-valid ng-star-inserted ng-touched'), 
     findTestData('Sales').getValue(27, 1))
 
-
 'Invoice Due Date'
 WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/Invoice Due Date'), formattedDate)
 
 'Invoice Paid?'
 WebUI.sendKeys(findTestObject('CreateNewDeal/Page_Thor/Invoice Due Date'), Keys.chord(Keys.TAB))
 
-rb.keyPress( KeyEvent.VK_SPACE );
-rb.keyRelease(KeyEvent.VK_SPACE);
-//WebUI.click(findTestObject('CreateNewDeal/Page_Thor/label_Invoice Paid_custom-control-label'))
+rb.keyPress(KeyEvent.VK_SPACE)
 
+rb.keyRelease(KeyEvent.VK_SPACE)
+
+//WebUI.click(findTestObject('CreateNewDeal/Page_Thor/label_Invoice Paid_custom-control-label'))
 'invoice Paid Date'
 WebUI.setText(findTestObject('CreateNewDeal/Page_Thor/input_Invoice Paid_invoice_paid_date'), formattedDate)
 
 'Director Approval'
 WebUI.sendKeys(findTestObject('CreateNewDeal/Page_Thor/input_Invoice Paid_invoice_paid_date'), Keys.chord(Keys.TAB))
 
-rb.keyPress( KeyEvent.VK_SPACE );
-rb.keyRelease(KeyEvent.VK_SPACE);
-//WebUI.click(findTestObject('CreateNewDeal/Page_Thor/label_Director Approval'))
+rb.keyPress(KeyEvent.VK_SPACE)
 
-rb.mouseMove(1016 ,601); //move cursor over top URL ba
+rb.keyRelease(KeyEvent.VK_SPACE)
+
+//WebUI.click(findTestObject('CreateNewDeal/Page_Thor/label_Director Approval'))
+rb.mouseMove(1016, 601 //move cursor over top URL ba
+    )
 
 WebUI.delay(5)
+
 /*
 'Commission Paid'
 //WebUI.click(findTestObject('CreateNewDeal/Page_Thor/Commission Paid'))
@@ -240,10 +246,9 @@ WebUI.delay(5)
 
 String sales = WebUI.getUrl()
 
-if (sales.equals('http://192.168.0.28:4204/saleslog')) {
-	
+if (sales.equals('http://192.168.0.28:4205/saleslog')) {
     log.logInfo('Deal Created Successfully')
 } else {
-WebUI.takeScreenshot()
+    WebUI.takeScreenshot()
 }
 

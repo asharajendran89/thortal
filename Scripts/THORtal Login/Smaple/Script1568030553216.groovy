@@ -18,7 +18,7 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
 'Browse to THORtal application'
-WebUI.openBrowser('http://192.168.0.28:4204/login')
+WebUI.openBrowser('http://192.168.0.28:4205/login')
 
 'Initiate the driverfactory to access the webdriver'
 WebDriver driver = DriverFactory.getWebDriver()
@@ -33,7 +33,10 @@ KeywordLogger log = new KeywordLogger()
 WebUI.delay(5)
 
 'Condition to check THORtal logo is present in the login page or not'
-if (WebUI.verifyImagePresent(findTestObject('Login/img')) == true) {
+
+	
+	WebUI.delay(5)
+	
     'Iterate the data file to perform valid and invalid credentials'
     for (int i = 1; i <= findTestData('Login').getRowNumbers(); i++) {
         'Enter email id'
@@ -48,7 +51,7 @@ if (WebUI.verifyImagePresent(findTestObject('Login/img')) == true) {
         'Condition to check a error message and the text Lead is present or not'
         currentpageurl = WebUI.getUrl()
 
-        if (currentpageurl.equals('http://192.168.0.28:4204/dashboard')) {
+        if (currentpageurl.equals('http://192.168.0.28:4205/dashboard')) {
             log.logInfo('--------- Sucessfull Log In --------------')
 
             'click on logout button'
@@ -56,13 +59,10 @@ if (WebUI.verifyImagePresent(findTestObject('Login/img')) == true) {
 
             'Condition failed verify the error message'
         } else {
-            errormessage = WebUI.getText(findTestObject('Login/errormessage'))
+            errormessage = WebUI.getText(findTestObject('Object Repository/Login/Error'))
 
             log.logInfo(errormessage)
         }
     }
-} else {
-    'Condition failed for unable to find the THORtal logo'
-    log.logInfo('Unable to find the THORtal application')
-}
+ 
 

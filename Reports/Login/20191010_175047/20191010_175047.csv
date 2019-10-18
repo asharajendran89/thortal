@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 77.0.3865.90,,2019-10-10 17:51:01,2019-10-10 17:51:20,19.440s,PASSED
+,,,,,,
+Test Cases/THORtal Login/login,Chrome 77.0.3865.90,,2019-10-10 17:51:01,2019-10-10 17:51:19,18.027s,PASSED
+"openBrowser(""http://192.168.0.28:4205/"")",Chrome 77.0.3865.90,Open browser,2019-10-10 17:51:02,2019-10-10 17:51:12,10.619s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,Maximize the opened browser,2019-10-10 17:51:12,2019-10-10 17:51:14,1.170s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.90,Print message on console log,2019-10-10 17:51:14,2019-10-10 17:51:14,0.001s,PASSED
+try,Chrome 77.0.3865.90,Check whether User Name field exists or not,2019-10-10 17:51:14,2019-10-10 17:51:14,0.259s,PASSED
+try,Chrome 77.0.3865.90,Check whether Password field exists or not,2019-10-10 17:51:14,2019-10-10 17:51:14,0.318s,PASSED
+try,Chrome 77.0.3865.90,Check whether Log In button exists or not,2019-10-10 17:51:14,2019-10-10 17:51:14,0.181s,PASSED
+delay(5),Chrome 77.0.3865.90,,2019-10-10 17:51:14,2019-10-10 17:51:19,5.028s,PASSED
+currentpageurl = getUrl(),Chrome 77.0.3865.90,Check if login was proper or not,2019-10-10 17:51:19,2019-10-10 17:51:19,0.053s,PASSED
+"if (!(currentpageurl.equals(""http://192.168.0.28:4205/dashboard"")))",Chrome 77.0.3865.90,,2019-10-10 17:51:19,2019-10-10 17:51:19,0.003s,PASSED
+else,Chrome 77.0.3865.90,,2019-10-10 17:51:19,2019-10-10 17:51:19,0.002s,PASSED

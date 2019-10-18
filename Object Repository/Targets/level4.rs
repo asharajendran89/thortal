@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>level4</name>
+   <tag></tag>
+   <elementGuidId>ea9dfca9-ad42-4359-bcc4-5dcdb60c1c0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/modal-container/div/div/form/div[2]/table[1]/tbody/tr[4]/td[2]/input[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/modal-container/div/div/form/div[2]/table[1]/tbody/tr[4]/td[2]/input[2]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -6,6 +6,10 @@
    <elementGuidId>b140c804-d657-4bc8-b369-655657c79632</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/app-root[1]/app-login[1]/div[@class=&quot;authentication-bg&quot;]/div[@class=&quot;account-pages&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-5&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;pb-3&quot;]/a[1]/span[1]/img[1][count(. | //img[@src = 'assets/images/logo.svg']) = count(//img[@src = 'assets/images/logo.svg'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::img[1]</value>
       </entry>
@@ -27,7 +31,7 @@
       <value>assets/images/logo.svg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

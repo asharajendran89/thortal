@@ -3,7 +3,7 @@
    <description></description>
    <name>Password</name>
    <tag></tag>
-   <elementGuidId>07be0368-fedc-477e-9924-c893736df5d9</elementGuidId>
+   <elementGuidId>132d9b7d-51f5-470b-827f-9393d5aa0f30</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Clients/Page_Thor/Page_Thor/Client button'))
 KeywordLogger log = new KeywordLogger()
 
 ' Verify Clients page or not'
-if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/clients') {
+if (WebUI.getUrl() == 'http://192.168.0.28:4205/configuration/clients') {
     System.out.println('Congiguration/Clients - page')
 
     //EDIT
@@ -60,27 +60,24 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/clients') {
     'To Print Column Size'
     java.lang.System.out.println(col.size())
 
-    if (rows.size() >= 1) {
-        System.out.println('Data Exists')
+    if (WebUI.verifyTextPresent('No data available in table', false, FailureHandling.OPTIONAL)) {
+        System.out.println('No data available in table')
+    } else if (rows.size() == 1) {
+        System.out.println('Data Exists in table')
 
-        'Generating Random Edit Within Row Size'
-        Random rad = new Random()
-
-        int rowscount = rad.nextInt(rows.size)
-
-        WebUI.delay(5)
-
-        'Click on Random Edit'
-        driver.findElement(By.xpath(('html/body/app-root/app-layout/div/div/div/div/app-client-conf/div/div[2]/div/div/table/tbody/tr[' + 
-                rowscount) + ']/td[5]/a')).click()
+        WebUI.click(findTestObject('Object Repository/Clients/Page_Thor/Dataonw'))
 
         WebUI.delay(3)
-'Enter Client Name'
-        WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/ClientName'), findTestData('Clients').getValue(6, 1))
-'Enter VAT Number'
-        WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Client_vat_number'), findTestData('Clients').getValue(
+
+        'Enter Client Name'
+        WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/ClientName'), findTestData('Configuration/Clients').getValue(
+                6, 1))
+
+        'Enter VAT Number'
+        WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Client_vat_number'), findTestData('Configuration/Clients').getValue(
                 7, 1))
-'Click on update button'
+
+        'Click on update button'
         WebUI.click(findTestObject('Clients/Page_Thor/Page_Thor/update button'))
 
         errormessage = WebUI.getText(findTestObject('Clients/Page_Thor/Page_Thor/error message'))
@@ -93,15 +90,57 @@ if (WebUI.getUrl() == 'http://192.168.0.28:4204/configuration/clients') {
             WebUI.delay(5)
 
             'Search Edited name'
-            WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Search'), findTestData('Clients').getValue(6, 1))
+            WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Search'), findTestData('Configuration/Clients').getValue(
+                    6, 1))
 
             'Verify whether edited name is updated or not'
-            WebUI.verifyTextPresent(findTestData('Clients').getValue(6, 1), false, FailureHandling.OPTIONAL)
+            WebUI.verifyTextPresent(findTestData('Configuration/Clients').getValue(6, 1), false, FailureHandling.OPTIONAL)
         } else {
             System.out.println('Client doesnt updated  Message: ' + errormessage)
         }
     } else {
-        System.out.println('No Data to Edit')
+        'Generating Random Edit Within Row Size'
+        Random rad = new Random()
+
+        int rowscount = rad.nextInt(rows.size)
+
+        WebUI.delay(5)
+
+        'Click on Random Edit'
+        driver.findElement(By.xpath(('html/body/app-root/app-layout/div/div/div/div/app-client-conf/div/div[2]/div/div/table/tbody/tr[' + 
+                rowscount) + ']/td[5]/a')).click()
+
+        WebUI.delay(3)
+
+        'Enter Client Name'
+        WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/ClientName'), findTestData('Configuration/Clients').getValue(
+                6, 1))
+
+        'Enter VAT Number'
+        WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Client_vat_number'), findTestData('Configuration/Clients').getValue(
+                7, 1))
+
+        'Click on update button'
+        WebUI.click(findTestObject('Clients/Page_Thor/Page_Thor/update button'))
+
+        errormessage = WebUI.getText(findTestObject('Clients/Page_Thor/Page_Thor/error message'))
+
+        log.logInfo(errormessage)
+
+        if (errormessage.equalsIgnoreCase('Client details updated successfully')) {
+            WebUI.delay(5)
+
+            WebUI.delay(5)
+
+            'Search Edited name'
+            WebUI.setText(findTestObject('Clients/Page_Thor/Page_Thor/Search'), findTestData('Configuration/Clients').getValue(
+                    6, 1))
+
+            'Verify whether edited name is updated or not'
+            WebUI.verifyTextPresent(findTestData('Configuration/Clients').getValue(6, 1), false, FailureHandling.OPTIONAL)
+        } else {
+            System.out.println('Client doesnt updated  Message: ' + errormessage)
+        }
     }
 } else {
     System.out.println('Incorrect page')
